@@ -22,18 +22,16 @@ def read_csv(file_path):
 
 def write_csv(rows, file_path, fieldnames=None):
     """Write a list of dicts to a CSV file."""
-    if not rows:
-        print(f"[Writer] No records to write -> {file_path}")
-        return
-
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
     if fieldnames is None:
-        fieldnames = list(rows[0].keys())
+        fieldnames = list(rows[0].keys()) if rows else []
 
     with open(file_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+        if fieldnames:
+            writer.writeheader()
+        if rows:
+            writer.writerows(rows)
 
     print(f"[Writer] Wrote {len(rows)} records -> {file_path}")

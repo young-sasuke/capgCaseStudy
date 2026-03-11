@@ -14,17 +14,22 @@ if PROJECT_ROOT not in sys.path:
 
 from src.ingestion.dataset_generator import generate_dataset
 from src.ingestion.reader import read_csv, write_csv
-from src.cleaning.cleaner import clean_dataset
+from src.cleaning.cleaner import (
+    build_standardized_output,
+    clean_dataset,
+    detect_rework_loops,
+    remove_duplicate_events,
+    validate_cycle_times,
+)
 from src.validation.validator import validate_dataset
-from src.processing.deduplicator import process as dedup_process
 from src.analytics.transformer import compute_metrics
 
 
 # ---------------------------------------------------------------------------
 # Path constants (relative to project root)
 # ---------------------------------------------------------------------------
-RAW_DATA_PATH = os.path.join(PROJECT_ROOT, "data", "raw_events.csv")
-CLEANED_PATH = os.path.join(PROJECT_ROOT, "output", "cleaned_events.csv")
+RAW_DATA_PATH = os.path.join(PROJECT_ROOT, "data", "raw_dataset.csv")
+CLEANED_PATH = os.path.join(PROJECT_ROOT, "output", "cleaned_dataset.csv")
 REJECTED_PATH = os.path.join(PROJECT_ROOT, "output", "rejected_events.csv")
 METRICS_PATH = os.path.join(PROJECT_ROOT, "output", "metrics_report.csv")
 
@@ -50,7 +55,7 @@ def run_pipeline():
 
     # Step 1 – Generate dataset
     print("\n[STEP 1] Generating raw dataset ...")
-    generate_dataset(RAW_DATA_PATH, num_records=300)
+    generate_dataset(RAW_DATA_PATH, num_records=2000)
 
     # Step 2 – Read raw data
     print("\n[STEP 2] Reading raw data ...")
@@ -64,37 +69,78 @@ def run_pipeline():
     print("\n[STEP 4] Validating data ...")
     valid_rows, rejected_rows = validate_dataset(cleaned_rows)
 
-    # Step 5 – Deduplicate & detect rework
-    print("\n[STEP 5] Deduplicating & detecting rework ...")
-    final_rows, rework_summary = dedup_process(valid_rows)
+    # Step 5 – Remove duplicates
+    print("\n[STEP 5] Removing duplicate events ...")
+    deduped_rows, duplicates_removed = remove_duplicate_events(valid_rows)
+
+    # Step 6 – Detect rework loops and validate cycle times
+    print("\n[STEP 6] Detecting rework loops & validating cycle times ...")
+    rework_rows, rework_summary = detect_rework_loops(deduped_rows)
+    final_rows, invalid_cycle_events = validate_cycle_times(rework_rows)
 
     # Step 6 – Compute analytics
-    print("\n[STEP 6] Computing analytics ...")
+    print("\n[STEP 7] Computing analytics ...")
     metrics = compute_metrics(final_rows, rework_summary)
 
-    # Step 7 – Write outputs
-    print("\n[STEP 7] Writing output files ...")
-    write_csv(final_rows, CLEANED_PATH)
-    write_csv(rejected_rows, REJECTED_PATH)
+    # Step 8 – Write outputs
+    print("\n[STEP 8] Writing output files ...")
+    cleaned_output_rows = build_standardized_output(final_rows)
+    write_csv(cleaned_output_rows, CLEANED_PATH)
+    rejected_fieldnames = list(rejected_rows[0].keys()) if rejected_rows else [
+        "Event_ID",
+        "Line",
+        "Station",
+        "TS",
+        "Part_No",
+        "Torque_Nm",
+        "Temp_C",
+        "Defect",
+        "VIN",
+        "Supplier",
+        "Shift",
+        "Sensor_Anomaly",
+        "Cycle_Time_Minutes",
+        "Cycle_Time_Valid",
+        "Rework",
+        "Rejection_Reasons",
+    ]
+    write_csv(rejected_rows, REJECTED_PATH, fieldnames=rejected_fieldnames)
     write_csv(metrics, METRICS_PATH, fieldnames=["Metric", "Value"])
 
     # ---------- Summary ----------
     elapsed = round(time.time() - start, 2)
+    summary = {
+        "raw_records": len(raw_rows),
+        "cleaned_records": len(cleaned_rows),
+        "valid_records": len(valid_rows),
+        "rejected_records": len(rejected_rows),
+        "duplicates_removed": duplicates_removed,
+        "final_records": len(final_rows),
+        "rework_events": rework_summary.get("rework_events", 0),
+        "rework_units": rework_summary.get("rework_units", 0),
+        "invalid_cycle_events": invalid_cycle_events,
+        "metrics_computed": len(metrics),
+        "elapsed_seconds": elapsed,
+    }
     print(f"\n{separator}")
     print("  PIPELINE SUMMARY")
     print(separator)
-    print(f"  Raw records generated  : {len(raw_rows)}")
-    print(f"  Records after cleaning : {len(cleaned_rows)}")
-    print(f"  Valid records          : {len(valid_rows)}")
-    print(f"  Rejected records       : {len(rejected_rows)}")
-    print(f"  After deduplication    : {len(final_rows)}")
-    print(f"  Rework loops detected  : {rework_summary.get('rework_loops', 0)}")
-    print(f"  Rework VINs            : {rework_summary.get('rework_vins', 0)}")
-    print(f"  Metrics computed       : {len(metrics)}")
-    print(f"  Elapsed time           : {elapsed}s")
+    print(f"  Raw records generated  : {summary['raw_records']}")
+    print(f"  Records after cleaning : {summary['cleaned_records']}")
+    print(f"  Valid records          : {summary['valid_records']}")
+    print(f"  Rejected records       : {summary['rejected_records']}")
+    print(f"  Duplicates removed     : {summary['duplicates_removed']}")
+    print(f"  Final cleaned records  : {summary['final_records']}")
+    print(f"  Rework events flagged  : {summary['rework_events']}")
+    print(f"  Rework units flagged   : {summary['rework_units']}")
+    print(f"  Invalid cycle events   : {summary['invalid_cycle_events']}")
+    print(f"  Metrics computed       : {summary['metrics_computed']}")
+    print(f"  Elapsed time           : {summary['elapsed_seconds']}s")
     print(separator)
     print(f"  Output files:")
     print(f"    -> {CLEANED_PATH}")
+    print(f"    -> {RAW_DATA_PATH}")
     print(f"    -> {REJECTED_PATH}")
     print(f"    -> {METRICS_PATH}")
     print(separator)
+    return summary

@@ -1,233 +1,270 @@
 """
-Developer 1 - Dataset Generator
-Generates a realistic but messy manufacturing dataset with 300 records.
-Simulates data from MES, IoT sensors, quality inspection, supplier, and warranty systems.
+Manufacturing dataset generator.
+
+Creates an intentionally messy raw manufacturing-event dataset that exercises
+the downstream cleaning and validation rules.
 """
 
 import csv
 import os
 import random
 import string
+from datetime import datetime, timedelta
 
-# Seed for reproducibility
 random.seed(42)
 
-# ---------- reference pools ----------
-
-LINES = ["Line-A", "Line-B", "Line-C", "Line-D"]
-STATIONS = ["Welding", "Painting", "Assembly", "Inspection", "Packaging"]
-PART_NUMBERS = ["PT-1001", "PT-1002", "PT-1003", "PT-2001", "PT-2002", "PT-3001"]
-SUPPLIERS = ["SUP-ALPHA", "SUP-BETA", "SUP-GAMMA", "SUP-DELTA"]
-DEFECT_CLEAN = [None, "Reject", "Repair"]
-DEFECT_MESSY = ["na", "OK", "None", " Reject", "repair", "REJECT", "ok", "NA", ""]
-
+LINES = ["GA-1", "GA-2", "GA-3"]
+STATIONS = ["STN-01", "STN-02", "STN-03", "STN-05", "STN-07", "STN-09"]
+PART_NUMBERS = ["123-ABC", "456-DEF", "789-GHI", "101-JKL", "202-MNO", "303-PQR"]
+DEFECT_VALUES = ["None", "OK", "Reject", "Repair", "na"]
+SUPPLIERS = ["SUP-01", "SUP-02", "SUP-05", "sup-09", "Sup-11"]
 TIMESTAMP_FORMATS = [
-    "{y}-{m:02d}-{d:02d} {h:02d}:{mi:02d}",          # 2024-01-15 08:30
-    "{d:02d}/{m:02d}/{y} {h:02d}:{mi:02d}",            # 15/01/2024 08:30
-    "{m:02d}-{d:02d}-{y} {h:02d}:{mi:02d}",            # 01-15-2024 08:30
-    "{y}/{m:02d}/{d:02d} {h:02d}:{mi:02d}",            # 2024/01/15 08:30
-    "{d:02d}-{m:02d}-{y} {h:02d}:{mi:02d}",            # 15-01-2024 08:30
+    "{y}-{m:02d}-{d:02d} {h:02d}:{mi:02d}",
+    "{d:02d}/{m:02d}/{y} {h:02d}:{mi:02d}",
+    "{m:02d}-{d:02d}-{y} {h:02d}:{mi:02d}",
+    "{y}/{m:02d}/{d:02d} {h:02d}:{mi:02d}",
+    "{d:02d}-{m:02d}-{y} {h:02d}:{mi:02d}",
+]
+INVALID_TIMESTAMP_VALUES = [
+    "BAD_TS",
+    "2025/13/40 25:99",
+    "2025-02-30 09:15",
+    "NOT_A_TIMESTAMP",
+]
+FIELDNAMES = [
+    "Event_ID",
+    "Line",
+    "Station",
+    "TS",
+    "Part_No",
+    "Torque",
+    "Temp",
+    "Defect",
+    "VIN",
+    "Supplier",
 ]
 
-INVALID_TIMESTAMPS = [
-    "not-a-date",
-    "2024/13/40 25:99",
-    "00-00-0000 00:00",
-    "TIMESTAMP_ERROR",
-    "2024-02-30 08:30",
-]
 
-
-def _random_vin(messy=False, invalid=False):
-    """Generate a 17-character VIN, optionally with spaces / lowercase."""
+def _base_vin():
     chars = string.ascii_uppercase.replace("I", "").replace("O", "").replace("Q", "") + string.digits
-    vin = "".join(random.choices(chars, k=17))
-    if invalid:
-        # Produce VINs that cannot be fixed by cleaning
-        r = random.random()
-        if r < 0.33:
-            # Wrong length (too short)
-            vin = vin[:random.randint(10, 15)]
-        elif r < 0.66:
-            # Contains invalid chars I, O, Q
-            pos = random.randint(0, 16)
-            vin = vin[:pos] + random.choice("IOQ") + vin[pos + 1:]
-        else:
-            # Too long
-            vin = vin + "".join(random.choices(chars, k=random.randint(1, 4)))
-        return vin
-    if messy:
-        # insert random spaces or lowercase
-        vin_list = list(vin)
-        for _ in range(random.randint(1, 3)):
-            idx = random.randint(0, 16)
-            if random.random() < 0.5:
-                vin_list.insert(idx, " ")
-            else:
-                vin_list[idx] = vin_list[idx].lower()
-        vin = "".join(vin_list)
-    return vin
+    return "".join(random.choices(chars, k=17))
 
 
-def _random_timestamp(messy=False):
-    """Return a timestamp string in a random format; optionally with invalid minutes."""
-    y = random.choice([2024, 2025])
-    m = random.randint(1, 12)
-    d = random.randint(1, 28)
-    h = random.randint(6, 22)
-    mi = random.randint(0, 59)
-
-    if messy and random.random() < 0.3:
-        mi = random.randint(60, 99)  # invalid minutes
-
-    fmt = random.choice(TIMESTAMP_FORMATS)
-    return fmt.format(y=y, m=m, d=d, h=h, mi=mi)
+def _invalid_vin():
+    vin = _base_vin()
+    choice = random.choice(["short", "forbidden", "long"])
+    if choice == "short":
+        return vin[:14]
+    if choice == "forbidden":
+        return vin[:8] + random.choice("IOQ") + vin[9:]
+    return vin + "7X"
 
 
-def _random_part_number(messy=False):
-    """Return a part number, optionally with wrong casing / missing hyphen."""
-    pn = random.choice(PART_NUMBERS)
-    if messy:
-        r = random.random()
-        if r < 0.3:
-            pn = pn.lower()
-        elif r < 0.5:
-            pn = pn.replace("-", "")
-        elif r < 0.7:
-            pn = pn.replace("-", " ")
-    return pn
-
-
-def _random_torque(messy=False):
-    """Return torque value (Nm). Sometimes includes unit suffix."""
-    val = round(random.uniform(18.0, 55.0), 1)
-    if messy and random.random() < 0.25:
-        return f"{val} Nm"
-    return str(val)
-
-
-def _random_temp(messy=False):
-    """Return temperature. Mix Celsius and Fahrenheit."""
-    celsius = round(random.uniform(18.0, 45.0), 1)
-    if messy and random.random() < 0.35:
-        fahrenheit = round(celsius * 9 / 5 + 32, 1)
-        return f"{fahrenheit}F"
-    return f"{celsius}C"
-
-
-def _random_defect(messy=False):
-    """Return a defect value, optionally messy."""
-    if messy:
-        return random.choice(DEFECT_MESSY)
-    return random.choice(DEFECT_CLEAN) or ""
-
-
-def _random_supplier(messy=False):
-    """Return supplier code, optionally with wrong casing."""
-    sup = random.choice(SUPPLIERS)
-    if messy:
-        r = random.random()
-        if r < 0.3:
-            sup = sup.lower()
-        elif r < 0.5:
-            sup = sup.title()
-    return sup
-
-
-def _add_space_noise(value):
-    """Add leading / trailing / internal spaces randomly."""
-    r = random.random()
-    if r < 0.2:
+def _space_noise(value):
+    style = random.choice(["clean", "left", "right", "both"])
+    if style == "left":
         return f"  {value}"
-    elif r < 0.4:
+    if style == "right":
         return f"{value}  "
-    elif r < 0.5:
+    if style == "both":
         return f" {value} "
     return value
 
 
-def generate_dataset(output_path, num_records=300):
-    """Generate the raw manufacturing dataset CSV."""
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+def _mixed_case_part_number(part_number):
+    styles = [
+        part_number.lower(),
+        part_number[:4] + part_number[4:].lower(),
+        part_number.replace("-", ""),
+        part_number.replace("-", " "),
+    ]
+    return random.choice(styles)
 
+
+def _mixed_case_supplier(supplier):
+    styles = [supplier, supplier.lower(), supplier.upper(), supplier.title()]
+    return random.choice(styles)
+
+
+def _messy_vin(vin):
+    vin_chars = list(vin)
+    for _ in range(random.randint(1, 3)):
+        vin_chars.insert(random.randint(1, len(vin_chars) - 1), " ")
+    messy = "".join(vin_chars)
+    if random.random() < 0.35:
+        messy = "".join(char.lower() if random.random() < 0.25 else char for char in messy)
+    return messy
+
+
+def _render_timestamp(dt_value, force_invalid_minutes=False):
+    minute = dt_value.minute
+    if force_invalid_minutes:
+        minute = min(99, minute + random.randint(60, 70))
+    template = random.choice(TIMESTAMP_FORMATS)
+    return template.format(
+        y=dt_value.year,
+        m=dt_value.month,
+        d=dt_value.day,
+        h=dt_value.hour,
+        mi=minute,
+    )
+
+
+def _raw_torque():
+    if random.random() < 0.06:
+        value = random.choice([random.uniform(10, 19.5), random.uniform(121, 150)])
+    else:
+        value = random.uniform(35, 95)
+    value = round(value, 1)
+    if random.random() < 0.2:
+        return f"{value} Nm"
+    return str(value)
+
+
+def _raw_temperature():
+    if random.random() < 0.04:
+        celsius = round(random.uniform(205, 240), 1)
+    else:
+        celsius = round(random.uniform(28, 96), 1)
+
+    style = random.choice(["c_space", "c_compact", "fahrenheit"])
+    if style == "c_compact":
+        return f"{celsius}C"
+    if style == "fahrenheit":
+        fahrenheit = round(celsius * 9 / 5 + 32, 1)
+        return f"{fahrenheit}F"
+    return f"{celsius} C"
+
+
+def _raw_defect(rework_route=False):
+    if rework_route:
+        return random.choices(
+            population=["None", "OK", "na", "Repair", " Reject"],
+            weights=[42, 24, 16, 12, 6],
+            k=1,
+        )[0]
+    return random.choices(
+        population=["None", "OK", "na", "Repair", "Reject"],
+        weights=[56, 24, 15, 3, 2],
+        k=1,
+    )[0]
+
+
+def _make_event(line, station, ts_value, part_no, supplier, vin, messy=True, rework_route=False):
+    return {
+        "Event_ID": "",
+        "Line": _space_noise(line) if messy else line,
+        "Station": _space_noise(station) if messy else station,
+        "TS": _render_timestamp(ts_value, force_invalid_minutes=messy and random.random() < 0.12),
+        "Part_No": _mixed_case_part_number(part_no) if messy and random.random() < 0.6 else part_no,
+        "Torque": _raw_torque(),
+        "Temp": _raw_temperature(),
+        "Defect": _raw_defect(rework_route=rework_route),
+        "VIN": _messy_vin(vin) if messy and random.random() < 0.7 else vin,
+        "Supplier": _mixed_case_supplier(supplier),
+    }
+
+
+def _generate_vehicle_events(vehicle_count=300, rework_vehicle_count=80):
     rows = []
-    vin_pool = [_random_vin(messy=False) for _ in range(80)]
+    rework_vehicles = set(random.sample(range(vehicle_count), rework_vehicle_count))
 
-    for i in range(1, num_records + 1):
-        is_messy = random.random() < 0.40  # ~40 % of rows are messy
-
+    for vehicle_index in range(vehicle_count):
         line = random.choice(LINES)
-        station = random.choice(STATIONS)
-        if is_messy:
-            line = _add_space_noise(line)
-            station = _add_space_noise(station)
+        supplier = random.choice(SUPPLIERS)
+        vin = _base_vin()
+        part_no = random.choice(PART_NUMBERS)
+        current_ts = datetime(
+            year=2025,
+            month=random.randint(1, 12),
+            day=random.randint(1, 25),
+            hour=random.randint(5, 20),
+            minute=random.randint(0, 59),
+        )
 
-        ts = _random_timestamp(messy=is_messy)
-        part_no = _random_part_number(messy=is_messy)
-        torque = _random_torque(messy=is_messy)
-        temp = _random_temp(messy=is_messy)
-        defect = _random_defect(messy=is_messy)
-        vin = random.choice(vin_pool)
-        if is_messy:
-            vin = _random_vin(messy=True)
-        supplier = _random_supplier(messy=is_messy)
+        if vehicle_index in rework_vehicles:
+            route = ["STN-01", "STN-02", "STN-03", "STN-05", "STN-07", "STN-05", "STN-09"]
+        else:
+            route = list(STATIONS)
 
-        rows.append({
-            "Event_ID": f"EVT-{i:04d}",
-            "Line": line,
-            "Station": station,
-            "TS": ts,
-            "Part_No": part_no,
-            "Torque": torque,
-            "Temp": temp,
-            "Defect": defect,
-            "VIN": vin,
-            "Supplier": supplier,
-        })
+        for step_index, station in enumerate(route):
+            if step_index > 0:
+                gap_minutes = random.randint(4, 28)
+                if random.random() < 0.05:
+                    gap_minutes += random.randint(260, 420)
+                current_ts += timedelta(minutes=gap_minutes)
 
-    # ---------- inject ~20 truly invalid records ----------
-    for j in range(20):
-        idx = num_records + 1 + j
-        inv_type = random.choice(["bad_vin", "bad_ts", "missing_fields"])
+            rows.append(
+                _make_event(
+                    line=line,
+                    station=station,
+                    ts_value=current_ts,
+                    part_no=part_no,
+                    supplier=supplier,
+                    vin=vin,
+                    messy=random.random() < 0.8,
+                    rework_route=vehicle_index in rework_vehicles,
+                )
+            )
+
+    return rows
+
+
+def _generate_invalid_rows(count):
+    rows = []
+    for _ in range(count):
         row = {
-            "Event_ID": f"EVT-{idx:04d}",
-            "Line": random.choice(LINES),
-            "Station": random.choice(STATIONS),
-            "TS": _random_timestamp(messy=False),
-            "Part_No": random.choice(PART_NUMBERS),
-            "Torque": str(round(random.uniform(18.0, 55.0), 1)),
-            "Temp": f"{round(random.uniform(18.0, 45.0), 1)}C",
-            "Defect": "",
-            "VIN": random.choice(vin_pool),
-            "Supplier": random.choice(SUPPLIERS),
+            "Event_ID": "",
+            "Line": _space_noise(random.choice(LINES)),
+            "Station": _space_noise(random.choice(STATIONS)),
+            "TS": _render_timestamp(
+                datetime(2025, random.randint(1, 12), random.randint(1, 25), random.randint(0, 23), random.randint(0, 59))
+            ),
+            "Part_No": _mixed_case_part_number(random.choice(PART_NUMBERS)),
+            "Torque": _raw_torque(),
+            "Temp": _raw_temperature(),
+            "Defect": random.choice(DEFECT_VALUES),
+            "VIN": _messy_vin(_base_vin()),
+            "Supplier": _mixed_case_supplier(random.choice(SUPPLIERS)),
         }
-        if inv_type == "bad_vin":
-            row["VIN"] = _random_vin(invalid=True)
-        elif inv_type == "bad_ts":
-            row["TS"] = random.choice(INVALID_TIMESTAMPS)
-        else:  # missing_fields
-            row["VIN"] = ""
-            row["Supplier"] = ""
+
+        invalid_type = random.choice(["bad_vin", "bad_timestamp", "missing_field"])
+        if invalid_type == "bad_vin":
+            row["VIN"] = _invalid_vin()
+        elif invalid_type == "bad_timestamp":
+            row["TS"] = random.choice(INVALID_TIMESTAMP_VALUES)
+        else:
+            missing_field = random.choice(["VIN", "Supplier", "Part_No"])
+            row[missing_field] = ""
+
         rows.append(row)
 
-    # ---------- inject ~15 exact duplicate rows ----------
-    for _ in range(15):
-        src = random.choice(rows)
-        dup = dict(src)
-        dup["Event_ID"] = f"EVT-{len(rows) + 1:04d}"
-        rows.append(dup)
+    return rows
+
+
+def generate_dataset(output_path=None, num_records=2000):
+    """Generate the raw manufacturing dataset CSV."""
+    output_path = output_path or os.path.join("data", "raw_dataset.csv")
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    rows = _generate_vehicle_events()
+    rows.extend(_generate_invalid_rows(count=20))
+
+    if len(rows) < num_records:
+        duplicates_needed = num_records - len(rows)
+        duplicate_source = list(rows)
+        for _ in range(duplicates_needed):
+            rows.append(dict(random.choice(duplicate_source)))
+    elif len(rows) > num_records:
+        rows = rows[:num_records]
 
     random.shuffle(rows)
 
-    # Re-index Event_IDs after shuffle
-    for idx, row in enumerate(rows, start=1):
-        row["Event_ID"] = f"EVT-{idx:04d}"
+    for index, row in enumerate(rows, start=1):
+        row["Event_ID"] = f"EVT-{index:05d}"
 
-    fieldnames = ["Event_ID", "Line", "Station", "TS", "Part_No",
-                  "Torque", "Temp", "Defect", "VIN", "Supplier"]
-
-    with open(output_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+    with open(output_path, "w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=FIELDNAMES)
         writer.writeheader()
         writer.writerows(rows)
 
@@ -236,4 +273,4 @@ def generate_dataset(output_path, num_records=300):
 
 
 if __name__ == "__main__":
-    generate_dataset(os.path.join("data", "raw_events.csv"))
+    generate_dataset()

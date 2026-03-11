@@ -14,5 +14,12 @@ if PROJECT_ROOT not in sys.path:
 from src.pipeline.pipeline_runner import run_pipeline
 
 
+def _ensure_project_folders():
+    """Create the expected project folders when missing."""
+    for folder_name in ["data", "output", "src", "sql", "docs"]:
+        os.makedirs(os.path.join(PROJECT_ROOT, folder_name), exist_ok=True)
+
+
 if __name__ == "__main__":
+    _ensure_project_folders()
     run_pipeline()
