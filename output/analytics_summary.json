@@ -1,0 +1,195 @@
+{
+  "overall": {
+    "total_events": 1900,
+    "total_units": 320,
+    "defective_event_count": 199,
+    "good_units": 166,
+    "reworked_units": 70,
+    "fpy_percent": 51.88,
+    "dpu": 0.6219,
+    "rework_rate_percent": 21.88
+  },
+  "line_oee": [
+    {
+      "line": "GA-1",
+      "availability": 1.0,
+      "performance": 1.0,
+      "quality": 0.5652,
+      "oee": 0.5652,
+      "planned_time_seconds": 37500.0,
+      "runtime_seconds": 37500.0,
+      "actual_cycle_time_seconds": 254.33,
+      "ideal_cycle_time_seconds": 300.0,
+      "good_units": 52,
+      "total_units": 92
+    },
+    {
+      "line": "GA-2",
+      "availability": 1.0,
+      "performance": 1.0,
+      "quality": 0.5462,
+      "oee": 0.5462,
+      "planned_time_seconds": 35700.0,
+      "runtime_seconds": 35700.0,
+      "actual_cycle_time_seconds": 243.57,
+      "ideal_cycle_time_seconds": 300.0,
+      "good_units": 65,
+      "total_units": 119
+    },
+    {
+      "line": "GA-3",
+      "availability": 1.0,
+      "performance": 1.0,
+      "quality": 0.4495,
+      "oee": 0.4495,
+      "planned_time_seconds": 36000.0,
+      "runtime_seconds": 36000.0,
+      "actual_cycle_time_seconds": 232.48,
+      "ideal_cycle_time_seconds": 300.0,
+      "good_units": 49,
+      "total_units": 109
+    }
+  ],
+  "cycle_time_distribution": [
+    {
+      "station": "STN-01",
+      "min_seconds": 9.0,
+      "max_seconds": 546.0,
+      "average_seconds": 255.13,
+      "std_deviation_seconds": 175.3
+    },
+    {
+      "station": "STN-02",
+      "min_seconds": 6.0,
+      "max_seconds": 562.0,
+      "average_seconds": 229.98,
+      "std_deviation_seconds": 117.63
+    },
+    {
+      "station": "STN-03",
+      "min_seconds": 5.0,
+      "max_seconds": 595.0,
+      "average_seconds": 239.7,
+      "std_deviation_seconds": 125.25
+    },
+    {
+      "station": "STN-05",
+      "min_seconds": 7.0,
+      "max_seconds": 600.0,
+      "average_seconds": 246.73,
+      "std_deviation_seconds": 129.59
+    },
+    {
+      "station": "STN-07",
+      "min_seconds": 6.0,
+      "max_seconds": 600.0,
+      "average_seconds": 250.23,
+      "std_deviation_seconds": 131.13
+    },
+    {
+      "station": "STN-09",
+      "min_seconds": 11.0,
+      "max_seconds": 592.0,
+      "average_seconds": 243.75,
+      "std_deviation_seconds": 127.41
+    }
+  ],
+  "bottleneck_station": "STN-01",
+  "mtbf_seconds": 1632.38,
+  "mttr_seconds": 232.12,
+  "spc_summary": [
+    {
+      "station": "STN-01",
+      "torque_mean": 52.29,
+      "torque_range": 69.46,
+      "temp_mean": 90.0,
+      "temp_range": 84.11
+    },
+    {
+      "station": "STN-02",
+      "torque_mean": 52.32,
+      "torque_range": 65.28,
+      "temp_mean": 90.11,
+      "temp_range": 81.12
+    },
+    {
+      "station": "STN-03",
+      "torque_mean": 51.01,
+      "torque_range": 68.44,
+      "temp_mean": 89.1,
+      "temp_range": 81.02
+    },
+    {
+      "station": "STN-05",
+      "torque_mean": 52.1,
+      "torque_range": 71.2,
+      "temp_mean": 89.46,
+      "temp_range": 85.9
+    },
+    {
+      "station": "STN-07",
+      "torque_mean": 52.99,
+      "torque_range": 69.57,
+      "temp_mean": 89.2,
+      "temp_range": 78.3
+    },
+    {
+      "station": "STN-09",
+      "torque_mean": 51.46,
+      "torque_range": 70.99,
+      "temp_mean": 89.24,
+      "temp_range": 85.51
+    }
+  ],
+  "copq": {
+    "rework_count": 252,
+    "scrap_count": 88,
+    "copq": 30200
+  },
+  "energy_per_vehicle": {
+    "total_energy_kwh": 6389.78,
+    "vehicles_produced": 320,
+    "energy_per_vehicle_kwh": 19.97
+  },
+  "shift_performance": [
+    {
+      "shift": "A",
+      "production_count": 154,
+      "defect_rate": 0.6558,
+      "average_cycle_time_seconds": 239.43
+    },
+    {
+      "shift": "B",
+      "production_count": 155,
+      "defect_rate": 0.5677,
+      "average_cycle_time_seconds": 246.49
+    },
+    {
+      "shift": "C",
+      "production_count": 27,
+      "defect_rate": 0.3704,
+      "average_cycle_time_seconds": 240.6
+    }
+  ],
+  "line_balance": [
+    {
+      "line": "GA-1",
+      "actual_cycle_time_seconds": 254.33,
+      "takt_time_seconds": 300.0,
+      "line_balance_efficiency": 100.0
+    },
+    {
+      "line": "GA-2",
+      "actual_cycle_time_seconds": 243.57,
+      "takt_time_seconds": 300.0,
+      "line_balance_efficiency": 100.0
+    },
+    {
+      "line": "GA-3",
+      "actual_cycle_time_seconds": 232.48,
+      "takt_time_seconds": 300.0,
+      "line_balance_efficiency": 100.0
+    }
+  ],
+  "anomaly_count": 637
+}

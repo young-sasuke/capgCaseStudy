@@ -1,21 +1,11 @@
-Event_ID,Line,Station,TS,Part_No,Raw_Torque_Nm,Torque_Nm,Temp_C,Defect,VIN,Supplier,Shift,Sensor_Anomaly,Cycle_Time_Minutes,Cycle_Time_Valid,Rework,Rejection_Reasons
-EVT-00029,GA-2,STN-03,2025-01-13 14:27,202-MNO,37.4,38.15,48.7,Repair,9FEJ2PJNHYXKR8,SUP-05,B,False,,True,False,invalid_vin_format
-EVT-00443,GA-3,STN-07,2025-04-08 18:21,303-PQR,146.9,149.84,68.39,None,,SUP-02,B,True,,True,False,missing_VIN
-EVT-00454,GA-2,STN-05,2025-02-22 04:14,101-JKL,63.3,64.57,29.3,Repair,,SUP-01,C,False,,True,False,missing_VIN
-EVT-00458,GA-1,STN-07,2025-08-12 19:10,789-GHI,40.1,40.9,69.39,Repair,71ED0VH9XL4B742667X,SUP-01,B,False,,True,False,invalid_vin_format
-EVT-00469,GA-2,STN-05,2025-11-23 20:36,202-MNO,45.3,46.21,87.61,None,CDCGBJ0ASUPSBS3HH7X,SUP-11,B,False,,True,False,invalid_vin_format
-EVT-00483,GA-1,STN-03,2025-05-04 20:45,123-ABC,35.8,36.52,66.72,Reject,,SUP-11,B,False,,True,False,missing_VIN
-EVT-00617,GA-1,STN-01,2025-10-21 04:00,123-ABC,84.9,86.6,48.9,None,,SUP-11,C,False,,True,False,missing_VIN
-EVT-00806,GA-1,STN-09,2025-09-14 21:34,202-MNO,76.7,78.23,43.11,Repair,D6CNYULAN4DB0Y,SUP-11,B,False,,True,False,invalid_vin_format
-EVT-00807,GA-2,STN-03,BAD_TS,202-MNO,68.2,69.56,59.1,None,LZXMZTW772K62FR0S,SUP-02,Unknown,False,,True,False,invalid_timestamp
-EVT-00940,GA-2,STN-09,2025-04-24 00:46,456-DEF,49.0,49.98,88.72,Reject,,SUP-05,C,False,,True,False,missing_VIN
-EVT-01048,GA-3,STN-01,2025-02-02 20:38,123-ABC,15.5,15.81,61.2,None,5T559KJ9G0KWBN,SUP-09,B,True,,True,False,invalid_vin_format
-EVT-01341,GA-3,STN-07,NOT_A_TIMESTAMP,202-MNO,56.7,57.83,222.89,Repair,0ZLEPL2MZXFD345M1,SUP-11,Unknown,True,,True,False,invalid_timestamp
-EVT-01604,GA-1,STN-01,2025/13/40 25:39,456-DEF,46.8,47.74,59.5,Repair,PB9G6MS9RBNYMUMEC,SUP-09,Unknown,False,,True,False,invalid_timestamp
-EVT-01648,GA-1,STN-01,NOT_A_TIMESTAMP,123-ABC,75.3,76.81,237.0,None,7M2DNFCJKVDU57MWC,SUP-05,Unknown,True,,True,False,invalid_timestamp
-EVT-01744,GA-3,STN-02,2025-04-16 04:21,123-ABC,66.3,67.63,92.89,None,BNHAB2ZV7ZF9WL53M,,C,False,,True,False,missing_Supplier
-EVT-01777,GA-2,STN-07,2025/13/40 25:39,101-JKL,43.1,43.96,49.3,None,MKSJ3K5ETW3FL3SV8,SUP-11,Unknown,False,,True,False,invalid_timestamp
-EVT-01836,GA-2,STN-05,2025-11-15 18:00,,80.4,82.01,75.1,None,2J9NWUNHC487BYK1T,SUP-11,B,False,,True,False,missing_Part_No
-EVT-01887,GA-1,STN-09,2025-12-04 17:20,456-DEF,56.2,57.32,32.2,None,3URYKKLJ7GAY23281,,B,False,,True,False,missing_Supplier
-EVT-01962,GA-2,STN-01,2025-02-30 09:15,789-GHI,89.6,91.39,92.4,Repair,DGFTWXF6SH7232RL1,SUP-11,Unknown,False,,True,False,invalid_timestamp
-EVT-01988,GA-2,STN-07,2025-06-17 22:47,789-GHI,54.2,55.28,80.1,None,2H2DUUPRZ7WND8,SUP-09,C,False,,True,False,invalid_vin_format
+Event_ID,Line,Station,TS,Part_No,Part_Description,BOM_Valid,Raw_Torque_Nm,Torque_Nm,Temp_C,Pressure,Energy_kWh,Plan_Production,Defect,VIN,Supplier,Supplier_Name,Supplier_Country,Work_Order,Work_Order_VIN_Valid,Tool_ID,Tool_Description,Tool_Valid,Inspection_Source,Scrap_Reason,Scrap_Reason_Description,Warranty_Claim,Shift,Sensor_Anomaly,Cycle_Time_Seconds,Cycle_Time_Minutes,Cycle_Time_Valid,Cycle_Time_Anomaly,Rework,Cleaning_Issues,Rejection_Reasons
+EVT-00095,GA-3,STN-03,NOT_A_TIMESTAMP,101-JKL,Battery Cooling Harness,True,51.6,52.63,98.3,54.0,4.14,115,Reject,XDCZ13LU3KG5DFZ51,SUP-01,Atlas Fasteners,India,WO-ERR-0006,True,T-103,Vision Alignment Rig,True,sensor,S1,Material Defect,No,Unknown,False,,,False,True,False,invalid_cycle_time; invalid_timestamp,invalid_timestamp
+EVT-00268,GA-3,STN-07,2025-04-20 01:27:43,101-JKL,Battery Cooling Harness,True,60.0,61.2,89.11,51.2,2.95,115,Reject,TGLZU4X1YFJP2K4GX,SUP-11,Vector Drive Components,USA,,False,T107,,False,camera,S2,Torque Failure,No,C,False,,,True,False,False,invalid_tool_id; invalid_work_order_vin_mapping,missing_Work_Order
+EVT-00288,GA-1,STN-01,2025-07-14 07:40:00,123-ABC,Front Axle Assembly,True,61.9,63.14,89.0,42.5,3.37,120,None,R9B339LM8MS1E6,SUP-01,Atlas Fasteners,India,WO-ERR-0024,True,T-101,Fixture Clamp,True,sensor,S3,Assembly Error,No,A,False,,,True,False,False,,invalid_vin_format
+EVT-00374,GA-1,STN-07,2025-07-12 10:09:09,,,False,45.5,46.41,82.2,43.8,2.86,120,Reject,DSD43W0PEW268DNBC,SUP-02,Precision Motion Works,Germany,WO-ERR-0000,True,T-107,Seal Applicator,True,camera,S3,Assembly Error,No,A,False,,,True,False,False,invalid_bom_part,missing_Part_No
+EVT-00381,GA-3,STN-01,2025-08-04 18:26:22,303-PQR,Door Lock Module,True,60.2,61.4,87.8,47.0,2.22,115,None,JS11EF6BVNZXYM6SK7X,SUP-05,Prime Casting Solutions,Japan,WO-ERR-0029,True,T-101,Fixture Clamp,True,camera,S1,Material Defect,No,B,False,,,True,False,False,,invalid_vin_format
+EVT-00398,GA-2,STN-07,2025-11-18 23:13:00,303-PQR,Door Lock Module,True,40.5,41.31,83.89,53.8,2.55,110,Reject,A16C0HYF9UGPD00ES,SUP-01,Atlas Fasteners,India,,False,T-107,Seal Applicator,True,camera,S4,Sensor Fault,No,C,False,,,True,False,False,invalid_work_order_vin_mapping,missing_Work_Order
+EVT-00565,GA-3,STN-07,2025-12-22 12:57:25,202-MNO,Brake Cylinder,True,44.7,45.59,82.3,39.0,2.67,115,Repair,AAT5099JTEH4XBZGH7X,SUP-02,Precision Motion Works,Germany,WO-ERR-0026,True,T-107,Seal Applicator,True,camera,,,No,A,False,,,True,False,False,,invalid_vin_format
+EVT-01350,GA-3,STN-05,2025-12-22 01:57:09,202-MNO,Brake Cylinder,True,56.2,57.32,82.39,52.4,4.13,115,Reject,,SUP-09,Nova Sensor Systems,South Korea,WO-ERR-0019,False,T105,,False,sensor,S2,Torque Failure,Yes,C,False,,,True,False,False,invalid_tool_id; invalid_work_order_vin_mapping,missing_VIN
+EVT-01527,GA-3,STN-07,2025-02-30 09:15:59,202-MNO,Brake Cylinder,True,41.2,42.02,88.5,51.5,3.47,115,Reject,VSFUVMR2LMCRMWHJ9,SUP-01,Atlas Fasteners,India,WO-ERR-0012,True,T-107,Seal Applicator,True,sensor,S4,Sensor Fault,No,Unknown,False,,,False,True,False,invalid_cycle_time; invalid_timestamp,invalid_timestamp
+EVT-01849,GA-3,STN-01,2025-03-14 23:40:54,,,False,46.0,46.92,96.61,41.3,2.72,115,Repair,SZ3Y4EACHYLESPJZJ,SUP-01,Atlas Fasteners,India,WO-ERR-0015,True,T-101,Fixture Clamp,True,manual,S4,Sensor Fault,Yes,C,False,,,True,False,False,invalid_bom_part,missing_Part_No

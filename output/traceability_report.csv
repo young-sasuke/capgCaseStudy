@@ -1,0 +1,1227 @@
+Supplier_Code,Supplier_Name,Country,Part_No,Part_Description,VIN,Work_Order,Warranty_Claim,Defect,Scrap_Reason
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,TB7Y6UXU89CUGK8RD,WO-2025132,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,2ZFT0F73344NLY4FS,WO-2025116,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,84305FE1F56V2UL03,WO-2025162,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,BUJRKB4PRDBRFMM6G,WO-2025174,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,BDX57FKRT1DYME5RP,WO-2025029,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,XKB08A16Z6MHGA80P,WO-2025173,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,6XM2YTR5JDXA787VA,WO-2025095,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,S58LZ8511LNKKVP4K,WO-2025046,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,AE9CVW2FHCV5MP7GD,WO-2025240,No,None,
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,57W67GTEXMTS5F866,WO-2025256,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,533ATBBT7DKH5BBKW,WO-2025140,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,RSB5SBWNRZ2AJKPRK,WO-2025047,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,6X62JY3L1BN00JWUH,WO-2025155,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,8EEFDZ51WCAJG101D,WO-2025255,No,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FBNGZ6XMCX1EG0WTC,WO-2025023,Yes,Reject,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,533ATBBT7DKH5BBKW,WO-2025140,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,2NEYFHMZCN5N2URDJ,WO-2025065,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,PUHV53AYU0B8WHPYA,WO-ERR-0010,No,Repair,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,YK9G33UN6SACUU5MZ,WO-2025229,No,Reject,Material Defect
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,NZ3J6X91DXTN4VHZY,WO-2025224,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,99E77LV8DL6026PPR,WO-2025020,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,K5UMB1RG88YWL1HKP,WO-ERR-0013,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,T2VS0FB8Y7JMTE3V7,WO-2025108,No,Repair,Torque Failure
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,8YLWKXKNRPVMV5ZGP,WO-2025273,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,B8457BFZX373WJVAC,WO-2025115,Yes,Reject,Sensor Fault
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,JCEJMN9LPJSXHTS34,WO-2025276,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,5NUH8FHG8YX2VP0P6,WO-2025250,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,Y9X2SYUS97KYH6SYC,WO-2025136,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,S9DPVEMFL7CAPXYRK,WO-2025199,No,None,
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,YAPTRM6SFFUYX72S4,WO-2025002,No,None,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,718VLZDTT6B18WZDX,WO-2025074,No,Repair,Assembly Error
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,BY0GK7U5BFYPFX8YE,WO-2025120,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,6HB3TUW4CHFUM574H,WO-2025242,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,T0PSK64MFJ78JR4GU,WO-2025071,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,A1RY99DBK4ERBP127,WO-2025082,No,None,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,F4F86C2FT5ZE45VD3,WO-2025151,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,S4FHVRSKRMN8YC619,WO-2025093,No,None,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,LF55UTNJ62TSTZ2EZ,WO-2025147,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,0M4HY5ZCTHZSNTM32,WO-2025040,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,VL07XKKMZ6VG6GJ99,WO-2025186,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,YRKXRG5K3Z77079WX,WO-2025022,No,Reject,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,6TX1ZK83GUFCGZB7U,WO-2025175,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,NFRPHPABDD5TB8MGB,WO-2025190,Yes,Repair,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,GL197F0SLFS9A0GDS,WO-2025045,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,795W3KSA7Y0WZ84P6,WO-2025266,No,Repair,Material Defect
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,9LXEYVFMTJBX9ZWMY,WO-2025299,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,MZXF5SDZLX4STXG4P,WO-2025129,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,PH9TDBDX3PCN9U95A,WO-2025000,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,ARGH43P4G1HDDPBB5,WO-2025234,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,L16AJT6EU4CB03DLE,WO-2025263,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,8L5KBUT6GTC3GLD3U,WO-2025279,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,6XFUM17ZMBNBPT8AA,WO-2025073,No,Repair,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,C2ZHY79RBSUF7C3SS,WO-2025080,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,LVSAAJ84SY6PTZJDK,WO-2025025,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,718VLZDTT6B18WZDX,WO-2025074,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,8EEFDZ51WCAJG101D,WO-2025255,No,None,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,TB7Y6UXU89CUGK8RD,WO-2025132,No,Repair,Torque Failure
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,6TUNX8EY6XASRW3YN,WO-2025125,No,None,
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,13L4J0XZJY7BTSBAJ,WO-2025090,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,T0VXSEER5NZ1LH8AT,WO-2025205,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,YN9VYEJNJD5ULPC8D,WO-2025061,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,EZP4GZB2GVWJ3ZAXH,WO-2025290,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,3F08C3870E1A79NMZ,WO-2025150,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,K94THXG1YFJM4RZP4,WO-2025148,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,GVG81JX0GPWS2WNR6,WO-2025235,No,Reject,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,2ZFT0F73344NLY4FS,WO-2025116,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,UF1RU6VTPVXEHAJHJ,WO-2025123,No,Repair,Assembly Error
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,718VLZDTT6B18WZDX,WO-2025074,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,TE0TDZYZVS5TNT9XM,WO-2025026,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,Y8S4MV61CU9SB63K7,WO-2025124,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,T0PSK64MFJ78JR4GU,WO-2025071,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,ZDNGRP56BZJP7C6RW,WO-2025226,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,5FBT5XWU4F3E3GZCP,WO-2025056,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,8D3PDKXDGTDPUP6PS,WO-2025104,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,VRWK8T6DDKDENU3DT,WO-2025262,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,6TX1ZK83GUFCGZB7U,WO-2025175,Yes,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,M2THBCC2ZG1PCNS9A,WO-2025287,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,L16AJT6EU4CB03DLE,WO-2025263,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,RAJD61WS2S6ZHABF1,WO-2025278,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,PUVY6J2ZFTLSZP891,WO-2025193,No,None,
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,BLPG0NR4H6S8TP5XH,WO-2025057,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,T2DYKNYW6Z6J0UTGY,WO-2025102,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,BUJRKB4PRDBRFMM6G,WO-2025174,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,E2ZBM0RTCURN8Z954,WO-2025089,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,BPBY3Y13BN1J97DTS,WO-2025194,No,None,
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,TVSD86DWDWZMUGTHV,WO-2025207,No,None,
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,7LP7DFJCP1VLZ2YGR,WO-2025027,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,TE0TDZYZVS5TNT9XM,WO-2025026,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,BY0GK7U5BFYPFX8YE,WO-2025120,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,TEY9BPBCC12T89D85,WO-2025063,No,None,
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,7LP7DFJCP1VLZ2YGR,WO-2025027,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,XP8WN67KR54TWGS0X,WO-2025141,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,5NUH8FHG8YX2VP0P6,WO-2025250,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,V5SYASUT2BNLKAT93,WO-2025218,No,Reject,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,ED00MUG2B4JTV4WZL,WO-2025154,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,56DESG881UB9FZZ9X,WO-2025139,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,Z9M0E9XZ5XCA14DA0,WO-2025167,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,LF55UTNJ62TSTZ2EZ,WO-2025147,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,AAHWX958YKKS6Y5LD,WO-2025118,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,VG8BB4DXVPCKWLYUH,WO-2025247,No,None,
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,FMRM5GGBP16FGSYJP,WO-2025036,No,Repair,
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,YYC9XJFNTFDUN93FU,WO-2025238,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,YN9VYEJNJD5ULPC8D,WO-2025061,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,B28B9SCL4N5V8HN2B,WO-2025152,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,9MM211LDA81ZR6E9K,WO-2025158,Yes,None,Assembly Error
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,BWKL084FDSPZF2JYJ,WO-2025277,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FCW32NDCU2VZU0DED,WO-2025197,No,None,
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,PY4LYTJ00A0EN5PSY,WO-2025204,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,616N9TT7U30CW4VLC,WO-2025006,No,None,
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,FLLDMGLXY5WDUUMF2,WO-2025295,No,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,795W3KSA7Y0WZ84P6,WO-2025266,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5RDTYDPVACWXLTGZ8,WO-2025015,No,Reject,Material Defect
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,C1PADTKV0FKG8XYRU,WO-2025106,No,None,
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,PMW3YCDZK0Y65MWEM,WO-2025005,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,LL0CCYXH3VGBN3Y33,WO-2025252,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,9WHP4DF4KY1G9DSAZ,WO-2025298,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,4SFVS984JAVKE2324,WO-2025210,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,MZ46LEFTAWEM04LK5,WO-2025228,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,T5RZZ05ZMHU73733B,WO-2025067,No,None,
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,6WFUWZEZK3MD7Y730,WO-2025037,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,DJYFXVYY8L3DDH1VZ,WO-2025010,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,BUJRKB4PRDBRFMM6G,WO-2025174,No,Repair,Torque Failure
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,6BRXZP653DZJYM8PF,WO-2025169,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,U3TWZ65RJ3XJJ807C,WO-2025157,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,3VYTUL7FFFR2GX3KV,WO-2025249,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,34F60GMMF5PTEFMJJ,WO-2025208,No,Reject,Assembly Error
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,NNMRFG1R25FY580NU,WO-2025172,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,57W67GTEXMTS5F866,WO-2025256,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,P1JPCE47TT8J9VA25,WO-2025143,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,VL07XKKMZ6VG6GJ99,WO-2025186,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,P8SRM39SDJ6FD01EG,WO-2025257,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,B28B9SCL4N5V8HN2B,WO-2025152,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,8SJ0K4C9YBPNSY0C4,WO-2025009,No,None,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,0M4HY5ZCTHZSNTM32,WO-2025040,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,TE0TDZYZVS5TNT9XM,WO-2025026,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,KXEF3MXV5CFHLKJYJ,WO-2025018,No,None,
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,VMJK509TWKMCY50PG,WO-2025096,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,7DHMFPLNSC3YNCHKW,WO-2025033,No,Reject,Material Defect
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J54ZYH0KJEX6PT7YN,WO-2025068,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,4Z8M7YXZ0S4CV37TC,WO-2025260,No,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,1VKBG4FK229FRJ0H9,WO-2025184,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,1LFSP0TYDR46AFZGG,WO-2025159,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,WP6E0N8Z4YBBM0J33,WO-2025069,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,TEY9BPBCC12T89D85,WO-2025063,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,84305FE1F56V2UL03,WO-2025162,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,FMRM5GGBP16FGSYJP,WO-2025036,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,0ZF3EX5JH5WEANT5U,WO-2025048,No,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,0UJ89WW2FFPES2SVC,WO-2025100,Yes,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,K5E0T96KX1PN524KT,WO-2025066,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,VMJK509TWKMCY50PG,WO-2025096,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,UXY5ZDH3X57GDHKXR,WO-2025196,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,PGJV68PETR180TBAE,WO-2025254,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,D76U0N9CDE4CVR8HJ,WO-2025012,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5PGJM11HALT1JAW9N,WO-2025285,No,None,
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,5UC52UJ92HEWZS0VL,WO-2025187,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,PGJV68PETR180TBAE,WO-2025254,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,VDUMJ53UHTM96FF31,WO-2025170,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,Z0JSPVS0WHTYVJW35,WO-2025165,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,JNUHLZNF2TUFEJGPV,WO-2025237,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,Z9M0E9XZ5XCA14DA0,WO-2025167,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,M80UA67VFKNSDX7SB,WO-2025166,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,84305FE1F56V2UL03,WO-2025162,No,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,U20NH2MKTLP87VSGD,WO-2025220,No,None,
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,MZTW772K62FR0SX2G,WO-2025201,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,P8SRM39SDJ6FD01EG,WO-2025257,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,B6X0LPPGWWE3V2F6T,WO-2025112,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,A1CW7MZZCJ4R1ST2L,WO-2025054,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,HLKL8WJ62VZJAWF71,WO-2025178,No,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,4Z8M7YXZ0S4CV37TC,WO-2025260,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,K5E0T96KX1PN524KT,WO-2025066,Yes,Reject,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,T5RZZ05ZMHU73733B,WO-2025067,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,09LFER95K4AXLAT1X,WO-2025083,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,S4FHVRSKRMN8YC619,WO-2025093,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,KA2DLVBLLE4A3F77T,WO-2025078,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,CJE8T3BB9S4Y1W4DY,WO-2025052,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,XZDVKRVXZVJPCEW7H,WO-2025171,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,DS5YZFC4KL8CFN1V6,WO-2025013,No,None,
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,V0A2G6AP8VBK6U3RN,WO-2025098,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,ZMV5917HF3FPF72PZ,WO-2025001,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,NFRPHPABDD5TB8MGB,WO-2025190,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,FMD23VF30J496ETJ8,WO-2025195,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,AYNM1ALSEDU2WSVV2,WO-2025060,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,BT4E30CERPXC2SZ9M,WO-2025062,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,2NEYFHMZCN5N2URDJ,WO-2025065,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,BNY0V2EMUY115012L,WO-2025024,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,T0VXSEER5NZ1LH8AT,WO-2025205,No,Reject,Assembly Error
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,BT4E30CERPXC2SZ9M,WO-2025062,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5FUM7TBTYCZ643M34,WO-2025138,No,None,
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,6ARZY5L4PEUTUB0B7,WO-2025031,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,1LFSP0TYDR46AFZGG,WO-2025159,No,Repair,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9N8479S2233D92CPP,WO-2025177,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5FUM7TBTYCZ643M34,WO-2025138,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,CD6T1R7PC1SRDYYTZ,WO-2025107,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,P9RJR1YTM9GM52SD5,WO-2025050,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,SR1WBR6772L6T5V10,WO-2025146,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,67PNMMMF229AZKR3J,WO-2025253,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,6XM2YTR5JDXA787VA,WO-2025095,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,3CRZU9F2PL5X0D4NK,WO-2025122,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,P8CTJAUKSLE03E8SK,WO-2025291,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,XW6FLWZXARKE5AJS2,WO-2025079,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,N74RF4JP3YM43P8JP,WO-2025092,No,Repair,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,HCDBRV4D4NHW23DK0,WO-2025183,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,GYV8VV12WZ0RD3VTY,WO-2025019,Yes,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,9B7NYZWB04GJHJJ41,WO-2025142,Yes,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,5PPYA8SNMBB3SNXZY,WO-2025192,No,Reject,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,3F08C3870E1A79NMZ,WO-2025150,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,UM6Y4K4PXA4S0MXDD,WO-2025133,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,F5EBC94D6NKAT1H21,WO-2025058,No,Reject,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,J7CZTBW6SBJB2N0NY,WO-2025135,No,Repair,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,TE0TDZYZVS5TNT9XM,WO-2025026,No,Repair,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,B6X0LPPGWWE3V2F6T,WO-2025112,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,YRKXRG5K3Z77079WX,WO-2025022,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,B6VAXZ0X7X34446PP,WO-2025212,No,None,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,ARGH43P4G1HDDPBB5,WO-2025234,No,Repair,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,LR1BM85R4EBS3WZAS,WO-2025072,No,Reject,Sensor Fault
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,YYC9XJFNTFDUN93FU,WO-2025238,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,GPR1E62N3RR2XM3J1,WO-2025077,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J54ZYH0KJEX6PT7YN,WO-2025068,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,F5EBC94D6NKAT1H21,WO-2025058,No,None,
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,CXDW97088CBDPKECS,WO-2025084,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,9E0KLLHSP7ZZ1K06Y,WO-2025059,Yes,None,Torque Failure
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,JCEJMN9LPJSXHTS34,WO-2025276,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,9MM211LDA81ZR6E9K,WO-2025158,Yes,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,YC8U28U1TAYU8KG44,WO-2025030,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,TXGP6XRFK6YX5DMM9,WO-2025039,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,B0GUS-01,,GN8T3RYB5SC819NJP,WO-ERR-0003,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,5NHU7AVHFJC4Y5ZG5,WO-2025087,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,7DHMFPLNSC3YNCHKW,WO-2025033,Yes,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,YRKXRG5K3Z77079WX,WO-2025022,No,None,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,2NEYFHMZCN5N2URDJ,WO-2025065,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,LYXUT2VDHAS3J9Y3H,WO-2025145,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9N8479S2233D92CPP,WO-2025177,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,M2THBCC2ZG1PCNS9A,WO-2025287,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,LL7CPXY1G5TMRMFFA,WO-2025051,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,FA3C7C8AYHPU5KXWT,WO-2025264,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,3CRZU9F2PL5X0D4NK,WO-2025122,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,UM6Y4K4PXA4S0MXDD,WO-2025133,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,5PPYA8SNMBB3SNXZY,WO-2025192,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,Z0JSPVS0WHTYVJW35,WO-2025165,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,BT4E30CERPXC2SZ9M,WO-2025062,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,0UJ89WW2FFPES2SVC,WO-2025100,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,6LBCHZ3U5S31F17GR,WO-2025121,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,P5LDX4R231Y4PBKKR,WO-2025164,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,UYSTAAZE8T3XCZ6G2,WO-2025185,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,E53K31VWDJH2PAGNP,WO-2025028,No,Reject,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FBNGZ6XMCX1EG0WTC,WO-2025023,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,G6JEALRE7Z0SNP7J6,WO-2025280,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,A1CW7MZZCJ4R1ST2L,WO-2025054,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,9A43Y44YVEDSJ5P0C,WO-2025088,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,6PSNFC4Z0TPXRHFBV,WO-2025191,No,None,
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,UYSTAAZE8T3XCZ6G2,WO-2025185,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,C2ZHY79RBSUF7C3SS,WO-2025080,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,A1RY99DBK4ERBP127,WO-2025082,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,ASZS4DE1AVBK76NUC,WO-2025281,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,2HP3ZTFBENM0UN6AY,WO-2025075,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,74PE1PV6N9BT1U5U1,WO-2025284,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,J7CZTBW6SBJB2N0NY,WO-2025135,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,PYLMZSU8CG90MY7AB,WO-2025189,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,DS5YZFC4KL8CFN1V6,WO-2025013,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,7NAT8NNWN5S6LE8GD,WO-2025134,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,6PEM9NNC8ZCH08P3L,WO-2025091,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,TB6YNKD7YS49W8JNT,WO-2025244,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,WSCGH8A7B2BB72PDB,WO-2025114,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,74PE1PV6N9BT1U5U1,WO-2025284,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,E6JDW0LTG5CTPAA0D,WO-2025292,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5RDTYDPVACWXLTGZ8,WO-2025015,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,AMH35SMJV20E51L62,WO-2025111,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,WGNX7N5ZCHZWPSCTX,WO-2025268,No,None,
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,FMRM5GGBP16FGSYJP,WO-2025036,No,Repair,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FD3WEY2ETGXV283A6,WO-2025206,No,Repair,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,VG8BB4DXVPCKWLYUH,WO-2025247,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,9BLB8MC6NZLS9A2B1,WO-2025163,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,BPBY3Y13BN1J97DTS,WO-2025194,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,PGJV68PETR180TBAE,WO-2025254,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,4SFVS984JAVKE2324,WO-2025210,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,URFVEPEZUZ189F9V6,WO-2025119,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,67PNMMMF229AZKR3J,WO-2025253,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,P5LDX4R231Y4PBKKR,WO-2025164,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,VDUMJ53UHTM96FF31,WO-2025170,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,J7CZTBW6SBJB2N0NY,WO-2025135,Yes,Repair,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,EU1UA0YWMPF0BLJ3N,WO-2025180,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,9WHP4DF4KY1G9DSAZ,WO-2025298,No,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,WHN848AW3G61993A9,WO-2025085,Yes,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,1AJ32S464V4LEHF15,WO-2025232,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,795W3KSA7Y0WZ84P6,WO-2025266,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,B28B9SCL4N5V8HN2B,WO-2025152,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,9LXEYVFMTJBX9ZWMY,WO-2025299,No,Reject,Material Defect
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,N74RF4JP3YM43P8JP,WO-2025092,No,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,F8K5GBABPJ1TE8X9V,WO-2025117,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,A7RGZYV66XKZZK9WJ,WO-2025223,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,YC8U28U1TAYU8KG44,WO-2025030,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,ZMV5917HF3FPF72PZ,WO-2025001,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,6XFUM17ZMBNBPT8AA,WO-2025073,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,91994W5RENGTXCE5A,WO-2025282,No,Reject,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,TWJPRX6DUK7N8LA21,WO-2025011,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,000Y6B2KLWHN4P0PD,WO-2025126,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,616N9TT7U30CW4VLC,WO-2025006,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,6WFUWZEZK3MD7Y730,WO-2025037,No,None,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,VRWK8T6DDKDENU3DT,WO-2025262,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,CD6T1R7PC1SRDYYTZ,WO-2025107,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,UF1RU6VTPVXEHAJHJ,WO-2025123,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,MZ46LEFTAWEM04LK5,WO-2025228,No,None,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,MZXF5SDZLX4STXG4P,WO-2025129,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,4XBWDDU8NCHD8MEYY,WO-2025149,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,5BLX4N9HAYGE73BZN,WO-2025156,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,8L5KBUT6GTC3GLD3U,WO-2025279,No,None,
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,C588J4TBBMPM34TGW,WO-2025215,No,None,
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,PMW3YCDZK0Y65MWEM,WO-2025005,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,6FZX9ZKGDP3CKK4VA,WO-2025245,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,0M4HY5ZCTHZSNTM32,WO-2025040,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,ETSA00YWKK0CPHY0B,WO-2025297,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,D76U0N9CDE4CVR8HJ,WO-2025012,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,09LFER95K4AXLAT1X,WO-2025083,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JE8JN8WG3MD7V0G45,WO-2025294,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JU5YJPLZK4XX8PTV7,WO-2025251,No,None,
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,GVG81JX0GPWS2WNR6,WO-2025235,No,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,0UJ89WW2FFPES2SVC,WO-2025100,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,L70VNSB8NFL4DGLE8,WO-2025225,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,5BLX4N9HAYGE73BZN,WO-2025156,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,F6C8NNLKNXV9ZYZ12,WO-2025176,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,8L5KBUT6GTC3GLD3U,WO-2025279,No,Repair,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,9A43Y44YVEDSJ5P0C,WO-2025088,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,E6JDW0LTG5CTPAA0D,WO-2025292,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,BA0TY9SSTNDZ1ETH5,WO-2025293,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,KEL05UP0N32UC4U4Y,WO-2025035,No,None,
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,XP8WN67KR54TWGS0X,WO-2025141,Yes,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5FUM7TBTYCZ643M34,WO-2025138,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,T2DYKNYW6Z6J0UTGY,WO-2025102,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,JN6MZ7W0V88GLNHA3,WO-2025213,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,ARGH43P4G1HDDPBB5,WO-2025234,No,Repair,Assembly Error
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,AD1CGA65UCXBAKPCZ,WO-2025144,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,CXDW97088CBDPKECS,WO-2025084,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,JCEJMN9LPJSXHTS34,WO-2025276,No,Repair,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5Z99BA26REY4ZL4FV,WO-2025181,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,S4FHVRSKRMN8YC619,WO-2025093,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,6TUNX8EY6XASRW3YN,WO-2025125,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,FTJNRNZN5SDCHKXLN,WO-2025270,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,UYSTAAZE8T3XCZ6G2,WO-2025185,No,Repair,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JTAWRY1Y1CCDED7U0,WO-2025283,No,None,
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,9K3GKA4MH1N6P9T7L,WO-2025109,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,N74RF4JP3YM43P8JP,WO-2025092,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,0N0S8GBJXAWLFDJZV,WO-2025182,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,BWKL084FDSPZF2JYJ,WO-2025277,No,None,
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,KA2DLVBLLE4A3F77T,WO-2025078,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,K5E0T96KX1PN524KT,WO-2025066,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,XPN6EAXD3HAWY66LE,WO-2025086,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,T7EDF0DMMCMCPCP3Z,WO-2025055,No,Repair,Material Defect
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,B6VAXZ0X7X34446PP,WO-2025212,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,LPSEBSX2GVKB6MY01,WO-2025137,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,A1RY99DBK4ERBP127,WO-2025082,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,H6GB6R8KG8SU28R7V,WO-2025038,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,XKB08A16Z6MHGA80P,WO-2025173,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,AYTJEA5Y45BYK26RX,WO-2025222,Yes,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9KC7EV3D69S53BG14,WO-2025246,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,WHN848AW3G61993A9,WO-2025085,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,8U5EPA48SMPAT8RR4,WO-2025202,No,None,
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,18VGBYR71TB1FG24V,WO-2025231,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5RDTYDPVACWXLTGZ8,WO-2025015,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,DX29RHBCHVAV56J69,WO-2025168,No,None,
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,BNY0V2EMUY115012L,WO-2025024,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,KXEF3MXV5CFHLKJYJ,WO-2025018,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,YAPTRM6SFFUYX72S4,WO-2025002,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,BUJRKB4PRDBRFMM6G,WO-2025174,No,None,
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,PPZ23CM5AFR71S2PA,WO-2025113,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,RC7YAG6JY5S9SFNEX,WO-2025123,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,9BLB8MC6NZLS9A2B1,WO-2025163,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,CD6T1R7PC1SRDYYTZ,WO-2025107,Yes,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,BXZVHX0JVF0M8GDW2,WO-2025221,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,DS5YZFC4KL8CFN1V6,WO-2025013,Yes,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,1AJ32S464V4LEHF15,WO-2025232,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,AGN3BHBLEDJF19ND3,WO-2025203,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,6BSZRPDNPCK03AF4U,WO-2025239,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,YC8U28U1TAYU8KG44,WO-2025030,Yes,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,UF1RU6VTPVXEHAJHJ,WO-2025123,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,V2PYHEDYK42XBHVFN,WO-2025053,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,CE62WNX65B4EZS2U4,WO-2025041,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9KC7EV3D69S53BG14,WO-2025246,No,None,
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,6ARZY5L4PEUTUB0B7,WO-2025031,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,C1PADTKV0FKG8XYRU,WO-2025106,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,D8B2AM1HGC0TNPL8X,WO-2025127,Yes,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,3K9JB79ZK65XRPLRF,WO-2025070,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,AE9CVW2FHCV5MP7GD,WO-2025240,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,KXEF3MXV5CFHLKJYJ,WO-2025018,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,S58LZ8511LNKKVP4K,WO-2025046,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,VFXHR7TTK58GDFHWJ,WO-2025128,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,B8457BFZX373WJVAC,WO-2025115,No,None,
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,Y8S4MV61CU9SB63K7,WO-2025124,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,3CRZU9F2PL5X0D4NK,WO-2025122,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,13C534E4CG52D7286,WO-2025274,No,None,
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,FLLDMGLXY5WDUUMF2,WO-2025295,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,U3TWZ65RJ3XJJ807C,WO-2025157,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,000Y6B2KLWHN4P0PD,WO-2025126,No,Reject,Sensor Fault
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,8CV57TPB0DS7JAMJM,WO-2025042,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,YK9G33UN6SACUU5MZ,WO-2025229,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,PUVY6J2ZFTLSZP891,WO-2025193,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,5HK1B6F84YA061XZZ,WO-2025296,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,DJYFXVYY8L3DDH1VZ,WO-2025010,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,VMJK509TWKMCY50PG,WO-2025096,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,ZDF2KH27UBT5CKFEX,WO-2025103,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,DHXYCX6ZSA75DC1UY,WO-2025200,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,YK9G33UN6SACUU5MZ,WO-2025229,No,Reject,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,XPN6EAXD3HAWY66LE,WO-2025086,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,NZ3J6X91DXTN4VHZY,WO-2025224,No,Repair,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,9A43Y44YVEDSJ5P0C,WO-2025088,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,S9DPVEMFL7CAPXYRK,WO-2025199,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,MZ46LEFTAWEM04LK5,WO-2025228,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,BA0TY9SSTNDZ1ETH5,WO-2025293,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,3VYTUL7FFFR2GX3KV,WO-2025249,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,2ZFT0F73344NLY4FS,WO-2025116,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,HCDBRV4D4NHW23DK0,WO-2025183,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,M6SDM8SVGCHPLS997,WO-2025269,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,VL07XKKMZ6VG6GJ99,WO-2025186,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,YK9G33UN6SACUU5MZ,WO-2025229,No,None,
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,CJE8T3BB9S4Y1W4DY,WO-2025052,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,BVY577KEPB6R4EKE5,WO-2025161,No,None,
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,6TUNX8EY6XASRW3YN,WO-2025125,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,MZXF5SDZLX4STXG4P,WO-2025129,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5PGJM11HALT1JAW9N,WO-2025285,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,PY4LYTJ00A0EN5PSY,WO-2025204,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,VETJWW88D1G7T7RMZ,WO-2025130,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,LVSAAJ84SY6PTZJDK,WO-2025025,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,PUVY6J2ZFTLSZP891,WO-2025193,No,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,ZDF2KH27UBT5CKFEX,WO-2025103,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,6LBCHZ3U5S31F17GR,WO-2025121,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,BRBDXNA3LF4UL0KJZ,WO-2025219,Yes,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,7LNX4WTTTVSALDPL6,WO-2025007,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,UM6Y4K4PXA4S0MXDD,WO-2025133,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,PUVY6J2ZFTLSZP891,WO-2025193,No,Reject,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,ZMV5917HF3FPF72PZ,WO-2025001,No,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,F8K5GBABPJ1TE8X9V,WO-2025117,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,13L4J0XZJY7BTSBAJ,WO-2025090,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,TWJPRX6DUK7N8LA21,WO-2025011,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,6X62JY3L1BN00JWUH,WO-2025155,Yes,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,TB6YNKD7YS49W8JNT,WO-2025244,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,JTNZM42TK1641TEJP,WO-2025131,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,XW6FLWZXARKE5AJS2,WO-2025079,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,U20NH2MKTLP87VSGD,WO-2025220,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,A7RGZYV66XKZZK9WJ,WO-2025223,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,8L5KBUT6GTC3GLD3U,WO-2025279,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,G0X3GXVFRF427UT26,WO-2025248,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,JTNZM42TK1641TEJP,WO-2025131,No,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,9LXEYVFMTJBX9ZWMY,WO-2025299,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,RPLNDA0C1B4MTKZXK,WO-2025016,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,6HB3TUW4CHFUM574H,WO-2025242,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,67PNMMMF229AZKR3J,WO-2025253,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,BY0GK7U5BFYPFX8YE,WO-2025120,Yes,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,FTJNRNZN5SDCHKXLN,WO-2025270,No,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,CL7XYD6KKSKAB1Z2M,WO-2025261,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,VLP2241AFV3C40XAM,WO-2025272,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,83CZ7PMK9H8DE71R3,WO-2025289,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,SD4T0TK49JVN7T65K,WO-2025003,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,8374WBEHDNP9GZTK0,WO-2025259,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,6FTL5XNA34TVBGWNK,WO-2025267,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,LVSAAJ84SY6PTZJDK,WO-2025025,Yes,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,T2VS0FB8Y7JMTE3V7,WO-2025108,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,06EW5K03NXYSPG983,WO-2025034,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,UF1RU6VTPVXEHAJHJ,WO-2025123,No,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,4Z8M7YXZ0S4CV37TC,WO-2025260,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,UF1RU6VTPVXEHAJHJ,WO-2025123,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,3K9JB79ZK65XRPLRF,WO-2025070,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,6XM2YTR5JDXA787VA,WO-2025095,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,BAML519CXKYCMNNWV,WO-2025081,No,Repair,Sensor Fault
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,1VKBG4FK229FRJ0H9,WO-2025184,No,None,
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RYL6SRHY3TBSB3UG1,WO-2025216,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,DHXYCX6ZSA75DC1UY,WO-2025200,No,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,CL7XYD6KKSKAB1Z2M,WO-2025261,No,None,
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,ED00MUG2B4JTV4WZL,WO-2025154,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5FUM7TBTYCZ643M34,WO-2025138,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,VRWK8T6DDKDENU3DT,WO-2025262,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,VLP2241AFV3C40XAM,WO-2025272,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,NFRPHPABDD5TB8MGB,WO-2025190,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,F07ZGVD6PP7F6B1L8,WO-2025153,No,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,1VKBG4FK229FRJ0H9,WO-2025184,No,Repair,Assembly Error
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,D8B2AM1HGC0TNPL8X,WO-2025127,No,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,D4SXL67C7HR5NN5GC,WO-2025097,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,5BLX4N9HAYGE73BZN,WO-2025156,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,ZKBB6ZEVYCYNACA2K,WO-2025101,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,BM3HYZJCKV2DLPV84,WO-2025021,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,AYNM1ALSEDU2WSVV2,WO-2025060,No,Reject,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,WSCGH8A7B2BB72PDB,WO-2025114,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5RDTYDPVACWXLTGZ8,WO-2025015,No,Repair,Assembly Error
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,W2XBA3FHRU4KMJ1LK,WO-2025265,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,G6JEALRE7Z0SNP7J6,WO-2025280,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,JNML4XGS98CGDS9SD,WO-2025286,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JTAWRY1Y1CCDED7U0,WO-2025283,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,BY0GK7U5BFYPFX8YE,WO-2025120,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,DRWJUVX9PGVVFVS9W,WO-2025017,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,TEY9BPBCC12T89D85,WO-2025063,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,0N0S8GBJXAWLFDJZV,WO-2025182,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,RSB5SBWNRZ2AJKPRK,WO-2025047,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,PKFYMYJRDVVJ111LH,WO-2025123,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,LL0CCYXH3VGBN3Y33,WO-2025252,No,Repair,Torque Failure
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RNGX23YREJP3L26ZB,WO-2025258,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,PJ93TH630WBBEUH28,WO-2025110,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,9MM211LDA81ZR6E9K,WO-2025158,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,91994W5RENGTXCE5A,WO-2025282,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,AGN3BHBLEDJF19ND3,WO-2025203,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,XZDVKRVXZVJPCEW7H,WO-2025171,Yes,None,
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,UYSTAAZE8T3XCZ6G2,WO-2025185,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,ED00MUG2B4JTV4WZL,WO-2025154,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,6TX1ZK83GUFCGZB7U,WO-2025175,No,None,
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,L142W1WR5XU5EYK2J,WO-2025094,No,None,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,ARGH43P4G1HDDPBB5,WO-2025234,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,XP8WN67KR54TWGS0X,WO-2025141,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,B6X0LPPGWWE3V2F6T,WO-2025112,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,8SJ0K4C9YBPNSY0C4,WO-2025009,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,31WBMC97C7BP229YP,WO-2025008,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,XKB08A16Z6MHGA80P,WO-2025173,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,AMH35SMJV20E51L62,WO-2025111,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,LYXUT2VDHAS3J9Y3H,WO-2025145,No,None,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,F4F86C2FT5ZE45VD3,WO-2025151,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,S9DPVEMFL7CAPXYRK,WO-2025199,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,WSCGH8A7B2BB72PDB,WO-2025114,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JU5YJPLZK4XX8PTV7,WO-2025251,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,Y9X2SYUS97KYH6SYC,WO-2025136,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,DS5YZFC4KL8CFN1V6,WO-2025013,No,Repair,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,HSU67F2GERZ8LBKZZ,WO-2025160,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,EU1UA0YWMPF0BLJ3N,WO-2025180,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,9E0KLLHSP7ZZ1K06Y,WO-2025059,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,P9RJR1YTM9GM52SD5,WO-2025050,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,PYLMZSU8CG90MY7AB,WO-2025189,Yes,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,WGNX7N5ZCHZWPSCTX,WO-2025268,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,999-ZZZ,,4M405A0KM663NPW3S,WO-ERR-0008,No,Reject,Torque Failure
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,BVY577KEPB6R4EKE5,WO-2025161,No,Repair,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,8374WBEHDNP9GZTK0,WO-2025259,No,Repair,Assembly Error
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,8EEFDZ51WCAJG101D,WO-2025255,No,Repair,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,K8RRER707D6TCEKZ8,WO-2025044,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,44RAABMYVPWC6V8RJ,WO-2025043,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5RDTYDPVACWXLTGZ8,WO-2025015,Yes,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,B0GUS-01,,Y8N1CM37R4N1AK75H,WO-ERR-0022,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9RXS7F139FY2RAJEG,WO-2025271,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,34F60GMMF5PTEFMJJ,WO-2025208,No,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,9B7NYZWB04GJHJJ41,WO-2025142,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,8CHD3ZPUTDBKNKW36,WO-2025214,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,7LNX4WTTTVSALDPL6,WO-2025007,No,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,S4FHVRSKRMN8YC619,WO-2025093,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5PGJM11HALT1JAW9N,WO-2025285,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,LF55UTNJ62TSTZ2EZ,WO-2025147,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,6X62JY3L1BN00JWUH,WO-2025155,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,AMH35SMJV20E51L62,WO-2025111,No,Reject,Sensor Fault
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,TXGP6XRFK6YX5DMM9,WO-2025039,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FCW32NDCU2VZU0DED,WO-2025197,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,BT4E30CERPXC2SZ9M,WO-2025062,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,BRBDXNA3LF4UL0KJZ,WO-2025219,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,L142W1WR5XU5EYK2J,WO-2025094,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,ETSA00YWKK0CPHY0B,WO-2025297,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,6PSNFC4Z0TPXRHFBV,WO-2025191,Yes,Repair,Assembly Error
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,NZ3J6X91DXTN4VHZY,WO-2025224,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,J7CZTBW6SBJB2N0NY,WO-2025135,No,Repair,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J54ZYH0KJEX6PT7YN,WO-2025068,No,Reject,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,3AA2S0XZM74ZXCMHD,WO-2025209,No,None,
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,RYUFW1TEDEAT0XG19,WO-2025188,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,RNF4JC1KUHBTMRRNT,WO-2025032,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,WGNX7N5ZCHZWPSCTX,WO-2025268,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,BVY577KEPB6R4EKE5,WO-2025161,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,W2XBA3FHRU4KMJ1LK,WO-2025265,Yes,Repair,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,5HK1B6F84YA061XZZ,WO-2025296,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,KXEF3MXV5CFHLKJYJ,WO-2025018,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,KEL05UP0N32UC4U4Y,WO-2025035,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,9B7NYZWB04GJHJJ41,WO-2025142,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,RAJD61WS2S6ZHABF1,WO-2025278,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,VW76C3NMZB5BPM0SB,WO-2025076,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,LR1BM85R4EBS3WZAS,WO-2025072,No,None,
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,KA2DLVBLLE4A3F77T,WO-2025078,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,8YLWKXKNRPVMV5ZGP,WO-2025273,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5FGBV63JH2N0A5ZD3,WO-2025236,Yes,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,ZKBB6ZEVYCYNACA2K,WO-2025101,Yes,Reject,Sensor Fault
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,0SX6L87PTCG8S7RSE,WO-2025105,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,8CHD3ZPUTDBKNKW36,WO-2025214,Yes,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,BRBDXNA3LF4UL0KJZ,WO-2025219,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,6BRXZP653DZJYM8PF,WO-2025169,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,GB7J42J1VZ50CERWX,WO-2025099,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,UXY5ZDH3X57GDHKXR,WO-2025196,No,None,
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,NNMRFG1R25FY580NU,WO-2025172,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,44RAABMYVPWC6V8RJ,WO-2025043,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,7LNX4WTTTVSALDPL6,WO-2025007,Yes,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,AYTJEA5Y45BYK26RX,WO-2025222,No,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,SWGYP235X5EM4431S,WO-2025233,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,L70VNSB8NFL4DGLE8,WO-2025225,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,9E0KLLHSP7ZZ1K06Y,WO-2025059,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,SR1WBR6772L6T5V10,WO-2025146,Yes,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,AAHWX958YKKS6Y5LD,WO-2025118,No,Reject,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,PJ93TH630WBBEUH28,WO-2025110,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,795W3KSA7Y0WZ84P6,WO-2025266,Yes,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,VW76C3NMZB5BPM0SB,WO-2025076,No,Repair,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,VG8BB4DXVPCKWLYUH,WO-2025247,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,LVSAAJ84SY6PTZJDK,WO-2025025,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,3F08C3870E1A79NMZ,WO-2025150,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,F6C8NNLKNXV9ZYZ12,WO-2025176,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,8D3PDKXDGTDPUP6PS,WO-2025104,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,L70VNSB8NFL4DGLE8,WO-2025225,No,Repair,Assembly Error
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,ASZS4DE1AVBK76NUC,WO-2025281,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,6BSZRPDNPCK03AF4U,WO-2025239,Yes,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,6PEM9NNC8ZCH08P3L,WO-2025091,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,5PPYA8SNMBB3SNXZY,WO-2025192,No,None,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,WP6E0N8Z4YBBM0J33,WO-2025069,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,3AA2S0XZM74ZXCMHD,WO-2025209,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,VFXHR7TTK58GDFHWJ,WO-2025128,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,34F60GMMF5PTEFMJJ,WO-2025208,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,6TX1ZK83GUFCGZB7U,WO-2025175,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,5HK1B6F84YA061XZZ,WO-2025296,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,8YLWKXKNRPVMV5ZGP,WO-2025273,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,VMJK509TWKMCY50PG,WO-2025096,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,18VGBYR71TB1FG24V,WO-2025231,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,YK9G33UN6SACUU5MZ,WO-2025229,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,BDX57FKRT1DYME5RP,WO-2025029,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,FTJNRNZN5SDCHKXLN,WO-2025270,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,B6X0LPPGWWE3V2F6T,WO-2025112,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,8CV57TPB0DS7JAMJM,WO-2025042,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5FGBV63JH2N0A5ZD3,WO-2025236,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,8U5EPA48SMPAT8RR4,WO-2025202,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,GYV8VV12WZ0RD3VTY,WO-2025019,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,FMD23VF30J496ETJ8,WO-2025195,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,8CV57TPB0DS7JAMJM,WO-2025042,No,None,
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,91994W5RENGTXCE5A,WO-2025282,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,RSB5SBWNRZ2AJKPRK,WO-2025047,No,Reject,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,SWGYP235X5EM4431S,WO-2025233,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,LYXUT2VDHAS3J9Y3H,WO-2025145,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FD3WEY2ETGXV283A6,WO-2025206,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,M4S6YFJPUXV3MZD25,WO-ERR-0023,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,RNF4JC1KUHBTMRRNT,WO-2025032,No,None,
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,533ATBBT7DKH5BBKW,WO-2025140,Yes,None,
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,8CHD3ZPUTDBKNKW36,WO-2025214,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,DX29RHBCHVAV56J69,WO-2025168,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,C1PADTKV0FKG8XYRU,WO-2025106,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,A1RY99DBK4ERBP127,WO-2025082,No,Repair,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,T2VS0FB8Y7JMTE3V7,WO-2025108,Yes,Repair,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,1AJ32S464V4LEHF15,WO-2025232,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,7DHMFPLNSC3YNCHKW,WO-2025033,No,None,
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,BAML519CXKYCMNNWV,WO-2025081,No,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JU5YJPLZK4XX8PTV7,WO-2025251,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,XW6FLWZXARKE5AJS2,WO-2025079,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,AD1CGA65UCXBAKPCZ,WO-2025144,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J54ZYH0KJEX6PT7YN,WO-2025068,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,56DESG881UB9FZZ9X,WO-2025139,No,Reject,Torque Failure
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RNGX23YREJP3L26ZB,WO-2025258,No,Reject,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,83CZ7PMK9H8DE71R3,WO-2025289,No,None,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,RNW63HX5LW1KTWC94,WO-2025179,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,9B7NYZWB04GJHJJ41,WO-2025142,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,34F60GMMF5PTEFMJJ,WO-2025208,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,0N0S8GBJXAWLFDJZV,WO-2025182,Yes,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,A984VWKZSMKLKY8YG,WO-2025014,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,ZKBB6ZEVYCYNACA2K,WO-2025101,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,MZTW772K62FR0SX2G,WO-2025201,Yes,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,1AJ32S464V4LEHF15,WO-2025232,Yes,Reject,Material Defect
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,13C534E4CG52D7286,WO-2025274,No,Repair,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,M6SDM8SVGCHPLS997,WO-2025269,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FBNGZ6XMCX1EG0WTC,WO-2025023,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,TB7Y6UXU89CUGK8RD,WO-2025132,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,NNMRFG1R25FY580NU,WO-2025172,Yes,Repair,
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,Y9X2SYUS97KYH6SYC,WO-2025136,No,Repair,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,GB7J42J1VZ50CERWX,WO-2025099,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,NZ3J6X91DXTN4VHZY,WO-2025224,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,E53K31VWDJH2PAGNP,WO-2025028,No,Reject,Torque Failure
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,BAML519CXKYCMNNWV,WO-2025081,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,5PPYA8SNMBB3SNXZY,WO-2025192,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,6XFUM17ZMBNBPT8AA,WO-2025073,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,N42XC7LLCE0XJUY3E,WO-2025241,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,F07ZGVD6PP7F6B1L8,WO-2025153,Yes,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5Z99BA26REY4ZL4FV,WO-2025181,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,5UC52UJ92HEWZS0VL,WO-2025187,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,F07ZGVD6PP7F6B1L8,WO-2025153,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,K94THXG1YFJM4RZP4,WO-2025148,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,KEL05UP0N32UC4U4Y,WO-2025035,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,DRWJUVX9PGVVFVS9W,WO-2025017,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,CXDW97088CBDPKECS,WO-2025084,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,VL07XKKMZ6VG6GJ99,WO-2025186,No,Reject,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,GL197F0SLFS9A0GDS,WO-2025045,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,09LFER95K4AXLAT1X,WO-2025083,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,AD1CGA65UCXBAKPCZ,WO-2025144,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,Y9X2SYUS97KYH6SYC,WO-2025136,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,NFRPHPABDD5TB8MGB,WO-2025190,Yes,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9N8479S2233D92CPP,WO-2025177,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,PH9TDBDX3PCN9U95A,WO-2025000,No,None,
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,V0A2G6AP8VBK6U3RN,WO-2025098,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,RNW63HX5LW1KTWC94,WO-2025179,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,GPR1E62N3RR2XM3J1,WO-2025077,No,None,
+SUP-11,Vector Drive Components,USA,B0GUS-01,,HESHPXUNWHD55H0UF,WO-ERR-0027,No,Reject,Material Defect
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,PY4LYTJ00A0EN5PSY,WO-2025204,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,Y9X2SYUS97KYH6SYC,WO-2025136,No,Reject,Torque Failure
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,ASZS4DE1AVBK76NUC,WO-2025281,No,None,
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,NZ3J6X91DXTN4VHZY,WO-2025224,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,BVY577KEPB6R4EKE5,WO-2025161,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J54ZYH0KJEX6PT7YN,WO-2025068,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,6LBCHZ3U5S31F17GR,WO-2025121,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,YRKXRG5K3Z77079WX,WO-2025022,Yes,Reject,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,Y8S4MV61CU9SB63K7,WO-2025124,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,8CHD3ZPUTDBKNKW36,WO-2025214,Yes,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9KC7EV3D69S53BG14,WO-2025246,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5FGBV63JH2N0A5ZD3,WO-2025236,No,None,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,0SX6L87PTCG8S7RSE,WO-2025105,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,B0GUS-01,,7FAZPKP9SCXB93FZT,WO-ERR-0025,No,Repair,Torque Failure
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,LPSEBSX2GVKB6MY01,WO-2025137,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,BVY577KEPB6R4EKE5,WO-2025161,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,CE62WNX65B4EZS2U4,WO-2025041,No,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,9LXEYVFMTJBX9ZWMY,WO-2025299,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,5HZ8Y43EWH5RT2DZ7,WO-2025217,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,88J6DY5TGPB0XTM1R,WO-2025275,No,None,
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,SPPDFE1GUDZ2SZDS7,WO-2025227,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,AAHWX958YKKS6Y5LD,WO-2025118,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,0SX6L87PTCG8S7RSE,WO-2025105,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,G6JEALRE7Z0SNP7J6,WO-2025280,No,None,
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,JCEJMN9LPJSXHTS34,WO-2025276,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,6FZX9ZKGDP3CKK4VA,WO-2025245,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,N74RF4JP3YM43P8JP,WO-2025092,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,JN6MZ7W0V88GLNHA3,WO-2025213,No,None,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,MZXF5SDZLX4STXG4P,WO-2025129,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,5HK1B6F84YA061XZZ,WO-2025296,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,T0VXSEER5NZ1LH8AT,WO-2025205,No,Repair,Sensor Fault
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,K94THXG1YFJM4RZP4,WO-2025148,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,ZMV5917HF3FPF72PZ,WO-2025001,No,Repair,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,DX29RHBCHVAV56J69,WO-2025168,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,P9RJR1YTM9GM52SD5,WO-2025050,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,0M4HY5ZCTHZSNTM32,WO-2025040,No,Repair,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,PPZ23CM5AFR71S2PA,WO-2025113,No,Repair,Assembly Error
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,SD4T0TK49JVN7T65K,WO-2025003,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,JN6MZ7W0V88GLNHA3,WO-2025213,No,Repair,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,K8RRER707D6TCEKZ8,WO-2025044,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,LPSEBSX2GVKB6MY01,WO-2025137,No,Reject,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,NE7TSCHV5YPA9CAYJ,WO-2025211,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,BDX57FKRT1DYME5RP,WO-2025029,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,H6GB6R8KG8SU28R7V,WO-2025038,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,DS5YZFC4KL8CFN1V6,WO-2025013,No,Reject,Material Defect
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,9WHP4DF4KY1G9DSAZ,WO-2025298,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,6XFUM17ZMBNBPT8AA,WO-2025073,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,9B7NYZWB04GJHJJ41,WO-2025142,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,JTNZM42TK1641TEJP,WO-2025131,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,VDUMJ53UHTM96FF31,WO-2025170,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,V2PYHEDYK42XBHVFN,WO-2025053,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,SPPDFE1GUDZ2SZDS7,WO-2025227,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,N42XC7LLCE0XJUY3E,WO-2025241,Yes,Reject,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,KA2DLVBLLE4A3F77T,WO-2025078,Yes,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,A1RY99DBK4ERBP127,WO-2025082,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,GB7J42J1VZ50CERWX,WO-2025099,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,YHSHMYFB7C10ZTRJ4,WO-2025230,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,06EW5K03NXYSPG983,WO-2025034,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,VETJWW88D1G7T7RMZ,WO-2025130,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,56DESG881UB9FZZ9X,WO-2025139,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,8U5EPA48SMPAT8RR4,WO-2025202,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,V5SYASUT2BNLKAT93,WO-2025218,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,TEY9BPBCC12T89D85,WO-2025063,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,CSPZT7CCXCKXVL9UR,WO-2025004,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,TVSD86DWDWZMUGTHV,WO-2025207,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,T5RZZ05ZMHU73733B,WO-2025067,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,000Y6B2KLWHN4P0PD,WO-2025126,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,L53M30KN3RDN68BNH,WO-2025198,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,2ZFT0F73344NLY4FS,WO-2025116,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,SWGYP235X5EM4431S,WO-2025233,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,5UC52UJ92HEWZS0VL,WO-2025187,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,8374WBEHDNP9GZTK0,WO-2025259,No,None,
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,6ARZY5L4PEUTUB0B7,WO-2025031,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,ZKBB6ZEVYCYNACA2K,WO-2025101,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,P1JPCE47TT8J9VA25,WO-2025143,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,WGNX7N5ZCHZWPSCTX,WO-2025268,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,AGN3BHBLEDJF19ND3,WO-2025203,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,6X62JY3L1BN00JWUH,WO-2025155,No,Repair,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,9B7NYZWB04GJHJJ41,WO-2025142,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,BUJRKB4PRDBRFMM6G,WO-2025174,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,HCDBRV4D4NHW23DK0,WO-2025183,Yes,None,Assembly Error
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,AAHWX958YKKS6Y5LD,WO-2025118,Yes,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,TE0TDZYZVS5TNT9XM,WO-2025026,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,YHSHMYFB7C10ZTRJ4,WO-2025230,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,HLKL8WJ62VZJAWF71,WO-2025178,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,D4SXL67C7HR5NN5GC,WO-2025097,No,Reject,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,7LP7DFJCP1VLZ2YGR,WO-2025027,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,PPZ23CM5AFR71S2PA,WO-2025113,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,HSU67F2GERZ8LBKZZ,WO-2025160,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,PYLMZSU8CG90MY7AB,WO-2025189,No,Repair,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,T5RZZ05ZMHU73733B,WO-2025067,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FBNGZ6XMCX1EG0WTC,WO-2025023,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,RNF4JC1KUHBTMRRNT,WO-2025032,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,HLKL8WJ62VZJAWF71,WO-2025178,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,6C9145WVVRLVYV3ZE,WO-2025049,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,WHN848AW3G61993A9,WO-2025085,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J8J7KVEKAUK11RJD8,WO-2025243,No,None,
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,E53K31VWDJH2PAGNP,WO-2025028,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,PGJV68PETR180TBAE,WO-2025254,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,MZTW772K62FR0SX2G,WO-2025201,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,FMD23VF30J496ETJ8,WO-2025195,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,TWJPRX6DUK7N8LA21,WO-2025011,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,CE62WNX65B4EZS2U4,WO-2025041,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,KEL05UP0N32UC4U4Y,WO-2025035,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,F6C8NNLKNXV9ZYZ12,WO-2025176,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,6C9145WVVRLVYV3ZE,WO-2025049,No,None,
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,GVG81JX0GPWS2WNR6,WO-2025235,No,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9RXS7F139FY2RAJEG,WO-2025271,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,A7RGZYV66XKZZK9WJ,WO-2025223,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,6C9145WVVRLVYV3ZE,WO-2025049,Yes,Reject,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,TEY9BPBCC12T89D85,WO-2025063,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,FLLDMGLXY5WDUUMF2,WO-2025295,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,RSB5SBWNRZ2AJKPRK,WO-2025047,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JU5YJPLZK4XX8PTV7,WO-2025251,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,B0GUS-01,,G0S3SJEP0CFZMDM3T,WO-ERR-0001,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,RPLNDA0C1B4MTKZXK,WO-2025016,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,XZDVKRVXZVJPCEW7H,WO-2025171,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RYL6SRHY3TBSB3UG1,WO-2025216,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,BM3HYZJCKV2DLPV84,WO-2025021,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,E2ZBM0RTCURN8Z954,WO-2025089,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,ZDNGRP56BZJP7C6RW,WO-2025226,No,Repair,Torque Failure
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,BVY577KEPB6R4EKE5,WO-2025161,No,Repair,Sensor Fault
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,7NAT8NNWN5S6LE8GD,WO-2025134,No,None,
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,EU1UA0YWMPF0BLJ3N,WO-2025180,No,None,
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,L142W1WR5XU5EYK2J,WO-2025094,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,ZXAFFABDDFJHD8Z78,WO-2025123,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,EZP4GZB2GVWJ3ZAXH,WO-2025290,No,Repair,Torque Failure
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,2HP3ZTFBENM0UN6AY,WO-2025075,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,ETSA00YWKK0CPHY0B,WO-2025297,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,G0X3GXVFRF427UT26,WO-2025248,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,PYLMZSU8CG90MY7AB,WO-2025189,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,K5E0T96KX1PN524KT,WO-2025066,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,XZDVKRVXZVJPCEW7H,WO-2025171,No,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,A984VWKZSMKLKY8YG,WO-2025014,No,Reject,Sensor Fault
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,T7EDF0DMMCMCPCP3Z,WO-2025055,Yes,Repair,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,0UJ89WW2FFPES2SVC,WO-2025100,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,B0GUS-01,,0GAHZSSYM97HVXMKW,WO-ERR-0017,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,6PEM9NNC8ZCH08P3L,WO-2025091,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,13C534E4CG52D7286,WO-2025274,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,D8B2AM1HGC0TNPL8X,WO-2025127,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,ASRZZEGUV91JGJUH3,WO-2025064,Yes,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,7DHMFPLNSC3YNCHKW,WO-2025033,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,6BSZRPDNPCK03AF4U,WO-2025239,Yes,None,
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,P8SRM39SDJ6FD01EG,WO-2025257,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,F5EBC94D6NKAT1H21,WO-2025058,Yes,Reject,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,VFXHR7TTK58GDFHWJ,WO-2025128,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,BLPG0NR4H6S8TP5XH,WO-2025057,Yes,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,RLPPT8TZPZLXCFAXS,WO-2025288,No,None,
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,C1PADTKV0FKG8XYRU,WO-2025106,Yes,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,PJ93TH630WBBEUH28,WO-2025110,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,FLLDMGLXY5WDUUMF2,WO-2025295,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,P8SRM39SDJ6FD01EG,WO-2025257,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,BM3HYZJCKV2DLPV84,WO-2025021,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,VDUMJ53UHTM96FF31,WO-2025170,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,F07ZGVD6PP7F6B1L8,WO-2025153,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,67PNMMMF229AZKR3J,WO-2025253,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,SD4T0TK49JVN7T65K,WO-2025003,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,DHXYCX6ZSA75DC1UY,WO-2025200,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,91994W5RENGTXCE5A,WO-2025282,No,Repair,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,A984VWKZSMKLKY8YG,WO-2025014,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J8J7KVEKAUK11RJD8,WO-2025243,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,ZKBB6ZEVYCYNACA2K,WO-2025101,No,Repair,Torque Failure
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,E53K31VWDJH2PAGNP,WO-2025028,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,T5RZZ05ZMHU73733B,WO-2025067,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,6PSNFC4Z0TPXRHFBV,WO-2025191,No,Repair,Assembly Error
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,4XBWDDU8NCHD8MEYY,WO-2025149,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,HCDBRV4D4NHW23DK0,WO-2025183,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,8D3PDKXDGTDPUP6PS,WO-2025104,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,6WFUWZEZK3MD7Y730,WO-2025037,No,Reject,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,PMW3YCDZK0Y65MWEM,WO-2025005,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,JNUHLZNF2TUFEJGPV,WO-2025237,No,Repair,Torque Failure
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,YC8U28U1TAYU8KG44,WO-2025030,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,RLPPT8TZPZLXCFAXS,WO-2025288,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,F8K5GBABPJ1TE8X9V,WO-2025117,No,None,
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,NNMRFG1R25FY580NU,WO-2025172,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,M2THBCC2ZG1PCNS9A,WO-2025287,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,S0ER9TC122117NZYU,WO-2025123,No,Repair,
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,57W67GTEXMTS5F866,WO-2025256,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,JTNZM42TK1641TEJP,WO-2025131,No,Repair,
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RNGX23YREJP3L26ZB,WO-2025258,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,LL7CPXY1G5TMRMFFA,WO-2025051,No,None,
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,GVG81JX0GPWS2WNR6,WO-2025235,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,PH9TDBDX3PCN9U95A,WO-2025000,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,4SFVS984JAVKE2324,WO-2025210,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,5HZ8Y43EWH5RT2DZ7,WO-2025217,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,6HB3TUW4CHFUM574H,WO-2025242,No,Reject,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,VLP2241AFV3C40XAM,WO-2025272,Yes,Repair,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9RXS7F139FY2RAJEG,WO-2025271,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,5J71AM1FP9URP4AMR,WO-ERR-0011,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,ZMV5917HF3FPF72PZ,WO-2025001,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,FA3C7C8AYHPU5KXWT,WO-2025264,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,V0A2G6AP8VBK6U3RN,WO-2025098,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,URFVEPEZUZ189F9V6,WO-2025119,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5FUM7TBTYCZ643M34,WO-2025138,Yes,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,SR1WBR6772L6T5V10,WO-2025146,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,06EW5K03NXYSPG983,WO-2025034,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,LYXUT2VDHAS3J9Y3H,WO-2025145,No,Reject,Torque Failure
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,YYC9XJFNTFDUN93FU,WO-2025238,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,CE62WNX65B4EZS2U4,WO-2025041,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,UM6Y4K4PXA4S0MXDD,WO-2025133,Yes,None,
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,AYNM1ALSEDU2WSVV2,WO-2025060,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RYL6SRHY3TBSB3UG1,WO-2025216,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,5NHU7AVHFJC4Y5ZG5,WO-2025087,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,BNY0V2EMUY115012L,WO-2025024,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,U3TWZ65RJ3XJJ807C,WO-2025157,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,9K3GKA4MH1N6P9T7L,WO-2025109,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,P5LDX4R231Y4PBKKR,WO-2025164,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,VLP2241AFV3C40XAM,WO-2025272,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,WP6E0N8Z4YBBM0J33,WO-2025069,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,BM3HYZJCKV2DLPV84,WO-2025021,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,FMRM5GGBP16FGSYJP,WO-2025036,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,C2ZHY79RBSUF7C3SS,WO-2025080,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,8SJ0K4C9YBPNSY0C4,WO-2025009,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,BA0TY9SSTNDZ1ETH5,WO-2025293,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,0SX6L87PTCG8S7RSE,WO-2025105,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,B8457BFZX373WJVAC,WO-2025115,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,5HZ8Y43EWH5RT2DZ7,WO-2025217,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,CJE8T3BB9S4Y1W4DY,WO-2025052,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,18VGBYR71TB1FG24V,WO-2025231,Yes,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,GYV8VV12WZ0RD3VTY,WO-2025019,No,Reject,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,G6JEALRE7Z0SNP7J6,WO-2025280,No,Repair,Torque Failure
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,2HP3ZTFBENM0UN6AY,WO-2025075,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,YYC9XJFNTFDUN93FU,WO-2025238,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,ZDNGRP56BZJP7C6RW,WO-2025226,No,Reject,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,BWKL084FDSPZF2JYJ,WO-2025277,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,74PE1PV6N9BT1U5U1,WO-2025284,No,Repair,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,PYLMZSU8CG90MY7AB,WO-2025189,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,Z0JSPVS0WHTYVJW35,WO-2025165,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,9MM211LDA81ZR6E9K,WO-2025158,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,6BSZRPDNPCK03AF4U,WO-2025239,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J8J7KVEKAUK11RJD8,WO-2025243,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,D4SXL67C7HR5NN5GC,WO-2025097,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RNGX23YREJP3L26ZB,WO-2025258,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,6ARZY5L4PEUTUB0B7,WO-2025031,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,LPSEBSX2GVKB6MY01,WO-2025137,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,SD4T0TK49JVN7T65K,WO-2025003,No,Reject,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,6HB3TUW4CHFUM574H,WO-2025242,Yes,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,8EEFDZ51WCAJG101D,WO-2025255,No,Repair,Torque Failure
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,EU1UA0YWMPF0BLJ3N,WO-2025180,No,Repair,Sensor Fault
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,E53K31VWDJH2PAGNP,WO-2025028,Yes,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,GL197F0SLFS9A0GDS,WO-2025045,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,GPR1E62N3RR2XM3J1,WO-2025077,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,6TUNX8EY6XASRW3YN,WO-2025125,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JTAWRY1Y1CCDED7U0,WO-2025283,Yes,Repair,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,JNML4XGS98CGDS9SD,WO-2025286,No,Reject,Torque Failure
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,9K3GKA4MH1N6P9T7L,WO-2025109,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,8SJ0K4C9YBPNSY0C4,WO-2025009,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,ETSA00YWKK0CPHY0B,WO-2025297,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JE8JN8WG3MD7V0G45,WO-2025294,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,F8K5GBABPJ1TE8X9V,WO-2025117,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,G0X3GXVFRF427UT26,WO-2025248,No,None,
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,7LP7DFJCP1VLZ2YGR,WO-2025027,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,8CHD3ZPUTDBKNKW36,WO-2025214,Yes,Reject,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,VW76C3NMZB5BPM0SB,WO-2025076,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,S58LZ8511LNKKVP4K,WO-2025046,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,ASRZZEGUV91JGJUH3,WO-2025064,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,000Y6B2KLWHN4P0PD,WO-2025126,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,AYNM1ALSEDU2WSVV2,WO-2025060,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,V0A2G6AP8VBK6U3RN,WO-2025098,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,0ZF3EX5JH5WEANT5U,WO-2025048,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,RYUFW1TEDEAT0XG19,WO-2025188,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FD3WEY2ETGXV283A6,WO-2025206,No,None,
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,RYUFW1TEDEAT0XG19,WO-2025188,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,M2THBCC2ZG1PCNS9A,WO-2025287,No,Repair,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,5UC52UJ92HEWZS0VL,WO-2025187,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,JNUHLZNF2TUFEJGPV,WO-2025237,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,ASZS4DE1AVBK76NUC,WO-2025281,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,AYTJEA5Y45BYK26RX,WO-2025222,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,8CHD3ZPUTDBKNKW36,WO-2025214,No,Reject,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5FGBV63JH2N0A5ZD3,WO-2025236,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,Z9M0E9XZ5XCA14DA0,WO-2025167,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,TVSD86DWDWZMUGTHV,WO-2025207,Yes,None,Material Defect
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,FA3C7C8AYHPU5KXWT,WO-2025264,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,BAML519CXKYCMNNWV,WO-2025081,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,URFVEPEZUZ189F9V6,WO-2025119,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,RNW63HX5LW1KTWC94,WO-2025179,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,2ZFT0F73344NLY4FS,WO-2025116,No,Repair,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,WSCGH8A7B2BB72PDB,WO-2025114,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,K5E0T96KX1PN524KT,WO-2025066,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,HSU67F2GERZ8LBKZZ,WO-2025160,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,BY0GK7U5BFYPFX8YE,WO-2025120,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,CSPZT7CCXCKXVL9UR,WO-2025004,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,ARGH43P4G1HDDPBB5,WO-2025234,No,None,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,DJYFXVYY8L3DDH1VZ,WO-2025010,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,3K9JB79ZK65XRPLRF,WO-2025070,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,DHXYCX6ZSA75DC1UY,WO-2025200,No,Reject,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,KEL05UP0N32UC4U4Y,WO-2025035,Yes,Repair,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,E2ZBM0RTCURN8Z954,WO-2025089,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,EZP4GZB2GVWJ3ZAXH,WO-2025290,No,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,795W3KSA7Y0WZ84P6,WO-2025266,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,M2THBCC2ZG1PCNS9A,WO-2025287,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,4XBWDDU8NCHD8MEYY,WO-2025149,No,Repair,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,31WBMC97C7BP229YP,WO-2025008,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,P1JPCE47TT8J9VA25,WO-2025143,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,UXY5ZDH3X57GDHKXR,WO-2025196,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,GYV8VV12WZ0RD3VTY,WO-2025019,No,Reject,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,533ATBBT7DKH5BBKW,WO-2025140,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,74PE1PV6N9BT1U5U1,WO-2025284,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,CSPZT7CCXCKXVL9UR,WO-2025004,No,Repair,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,7LNX4WTTTVSALDPL6,WO-2025007,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5PGJM11HALT1JAW9N,WO-2025285,No,Repair,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,9E0KLLHSP7ZZ1K06Y,WO-2025059,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,FA3C7C8AYHPU5KXWT,WO-2025264,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,BPBY3Y13BN1J97DTS,WO-2025194,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,T0VXSEER5NZ1LH8AT,WO-2025205,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,KXEF3MXV5CFHLKJYJ,WO-2025018,Yes,Repair,Assembly Error
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,SPPDFE1GUDZ2SZDS7,WO-2025227,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,XPN6EAXD3HAWY66LE,WO-2025086,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,3K9JB79ZK65XRPLRF,WO-2025070,Yes,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,L53M30KN3RDN68BNH,WO-2025198,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,09LFER95K4AXLAT1X,WO-2025083,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,99E77LV8DL6026PPR,WO-2025020,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,88J6DY5TGPB0XTM1R,WO-2025275,No,Repair,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,ASRZZEGUV91JGJUH3,WO-2025064,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,B0GUS-01,,7PKZ27BTHYZX06CVW,WO-ERR-0021,No,Repair,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,6HB3TUW4CHFUM574H,WO-2025242,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,VLP2241AFV3C40XAM,WO-2025272,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,C588J4TBBMPM34TGW,WO-2025215,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,6X62JY3L1BN00JWUH,WO-2025155,No,None,
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,UYSTAAZE8T3XCZ6G2,WO-2025185,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,M80UA67VFKNSDX7SB,WO-2025166,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,G6JEALRE7Z0SNP7J6,WO-2025280,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,URFVEPEZUZ189F9V6,WO-2025119,Yes,None,Material Defect
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,PUVY6J2ZFTLSZP891,WO-2025193,No,Reject,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,BLPG0NR4H6S8TP5XH,WO-2025057,Yes,Repair,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,VFXHR7TTK58GDFHWJ,WO-2025128,Yes,Reject,Material Defect
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,LVSAAJ84SY6PTZJDK,WO-2025025,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,S4FHVRSKRMN8YC619,WO-2025093,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,URFVEPEZUZ189F9V6,WO-2025119,No,Repair,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5FUM7TBTYCZ643M34,WO-2025138,No,Repair,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,FZRBCH1CWVFFHZ04K,WO-2025123,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,GVG81JX0GPWS2WNR6,WO-2025235,No,Reject,Assembly Error
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,6FZX9ZKGDP3CKK4VA,WO-2025245,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5PGJM11HALT1JAW9N,WO-2025285,Yes,Reject,Torque Failure
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,9K3GKA4MH1N6P9T7L,WO-2025109,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,M80UA67VFKNSDX7SB,WO-2025166,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,5BLX4N9HAYGE73BZN,WO-2025156,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,F6C8NNLKNXV9ZYZ12,WO-2025176,No,Reject,Sensor Fault
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,ASRZZEGUV91JGJUH3,WO-2025064,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,ZMV5917HF3FPF72PZ,WO-2025001,No,Repair,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,A1CW7MZZCJ4R1ST2L,WO-2025054,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,JNUHLZNF2TUFEJGPV,WO-2025237,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,5FBT5XWU4F3E3GZCP,WO-2025056,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,RPLNDA0C1B4MTKZXK,WO-2025016,No,Repair,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,KEL05UP0N32UC4U4Y,WO-2025035,No,Reject,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,8L5KBUT6GTC3GLD3U,WO-2025279,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,6PSNFC4Z0TPXRHFBV,WO-2025191,Yes,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,V5SYASUT2BNLKAT93,WO-2025218,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,TB6YNKD7YS49W8JNT,WO-2025244,Yes,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,GYV8VV12WZ0RD3VTY,WO-2025019,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,2HP3ZTFBENM0UN6AY,WO-2025075,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,BXZVHX0JVF0M8GDW2,WO-2025221,Yes,None,
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,LL7CPXY1G5TMRMFFA,WO-2025051,No,Reject,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,1LFSP0TYDR46AFZGG,WO-2025159,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,456-DEF,Rear Suspension Module,91994W5RENGTXCE5A,WO-2025282,No,Repair,Assembly Error
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,AE9CVW2FHCV5MP7GD,WO-2025240,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,7DHMFPLNSC3YNCHKW,WO-2025033,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,F8K5GBABPJ1TE8X9V,WO-2025117,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,18VGBYR71TB1FG24V,WO-2025231,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,LL7CPXY1G5TMRMFFA,WO-2025051,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,YHSHMYFB7C10ZTRJ4,WO-2025230,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,K8RRER707D6TCEKZ8,WO-2025044,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,31WBMC97C7BP229YP,WO-2025008,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,ARGH43P4G1HDDPBB5,WO-2025234,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,L142W1WR5XU5EYK2J,WO-2025094,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,PJ93TH630WBBEUH28,WO-2025110,Yes,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,L53M30KN3RDN68BNH,WO-2025198,No,None,
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RYL6SRHY3TBSB3UG1,WO-2025216,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,Y8S4MV61CU9SB63K7,WO-2025124,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5FGBV63JH2N0A5ZD3,WO-2025236,No,None,Sensor Fault
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RNGX23YREJP3L26ZB,WO-2025258,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,3AA2S0XZM74ZXCMHD,WO-2025209,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,CSPZT7CCXCKXVL9UR,WO-2025004,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,M80UA67VFKNSDX7SB,WO-2025166,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,V2PYHEDYK42XBHVFN,WO-2025053,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,B8457BFZX373WJVAC,WO-2025115,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,CL7XYD6KKSKAB1Z2M,WO-2025261,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,0ZF3EX5JH5WEANT5U,WO-2025048,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,B8457BFZX373WJVAC,WO-2025115,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,A1RY99DBK4ERBP127,WO-2025082,Yes,Reject,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,CSPZT7CCXCKXVL9UR,WO-2025004,No,None,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,T2VS0FB8Y7JMTE3V7,WO-2025108,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,D4SXL67C7HR5NN5GC,WO-2025097,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,DHXYCX6ZSA75DC1UY,WO-2025200,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,JNML4XGS98CGDS9SD,WO-2025286,No,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,M6SDM8SVGCHPLS997,WO-2025269,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,YK9G33UN6SACUU5MZ,WO-2025229,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,BPBY3Y13BN1J97DTS,WO-2025194,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,YRKXRG5K3Z77079WX,WO-2025022,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,RNW63HX5LW1KTWC94,WO-2025179,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,BRBDXNA3LF4UL0KJZ,WO-2025219,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,5NUH8FHG8YX2VP0P6,WO-2025250,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,C588J4TBBMPM34TGW,WO-2025215,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,DJYFXVYY8L3DDH1VZ,WO-2025010,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,9E0KLLHSP7ZZ1K06Y,WO-2025059,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,URFVEPEZUZ189F9V6,WO-2025119,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,9E0KLLHSP7ZZ1K06Y,WO-2025059,No,Repair,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,J7CZTBW6SBJB2N0NY,WO-2025135,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FBNGZ6XMCX1EG0WTC,WO-2025023,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,XP8WN67KR54TWGS0X,WO-2025141,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,P1JPCE47TT8J9VA25,WO-2025143,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,H6GB6R8KG8SU28R7V,WO-2025038,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,N42XC7LLCE0XJUY3E,WO-2025241,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5Z99BA26REY4ZL4FV,WO-2025181,No,None,
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,V5SYASUT2BNLKAT93,WO-2025218,No,None,
+SUP-09,Nova Sensor Systems,South Korea,456-DEF,Rear Suspension Module,PJ93TH630WBBEUH28,WO-2025110,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,M6SDM8SVGCHPLS997,WO-2025269,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,LL0CCYXH3VGBN3Y33,WO-2025252,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,W2XBA3FHRU4KMJ1LK,WO-2025265,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,T0VXSEER5NZ1LH8AT,WO-2025205,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FCW32NDCU2VZU0DED,WO-2025197,No,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,LYXUT2VDHAS3J9Y3H,WO-2025145,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,BLPG0NR4H6S8TP5XH,WO-2025057,No,None,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,KA2DLVBLLE4A3F77T,WO-2025078,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,BA0TY9SSTNDZ1ETH5,WO-2025293,No,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,RSB5SBWNRZ2AJKPRK,WO-2025047,Yes,Reject,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,6XFUM17ZMBNBPT8AA,WO-2025073,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RNGX23YREJP3L26ZB,WO-2025258,No,Reject,Torque Failure
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,SD4T0TK49JVN7T65K,WO-2025003,Yes,Repair,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,S58LZ8511LNKKVP4K,WO-2025046,No,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,D76U0N9CDE4CVR8HJ,WO-2025012,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,S9DPVEMFL7CAPXYRK,WO-2025199,Yes,None,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,DE1XN7ARPMVV1E9CS,WO-2025123,No,None,
+SUP-01,Atlas Fasteners,India,999-ZZZ,,0SRP4YT2MTKFMYU68,WO-ERR-0014,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J8J7KVEKAUK11RJD8,WO-2025243,No,Repair,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,DRWJUVX9PGVVFVS9W,WO-2025017,No,None,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,6XFUM17ZMBNBPT8AA,WO-2025073,Yes,None,Assembly Error
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,L142W1WR5XU5EYK2J,WO-2025094,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,1LFSP0TYDR46AFZGG,WO-2025159,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,M2THBCC2ZG1PCNS9A,WO-2025287,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,5UC52UJ92HEWZS0VL,WO-2025187,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,WP6E0N8Z4YBBM0J33,WO-2025069,Yes,Repair,Assembly Error
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,CJE8T3BB9S4Y1W4DY,WO-2025052,Yes,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,BXZVHX0JVF0M8GDW2,WO-2025221,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,V2PYHEDYK42XBHVFN,WO-2025053,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,K94THXG1YFJM4RZP4,WO-2025148,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,8U5EPA48SMPAT8RR4,WO-2025202,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,8YLWKXKNRPVMV5ZGP,WO-2025273,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,BRBDXNA3LF4UL0KJZ,WO-2025219,Yes,None,Assembly Error
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,P8CTJAUKSLE03E8SK,WO-2025291,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,YHSHMYFB7C10ZTRJ4,WO-2025230,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,PMW3YCDZK0Y65MWEM,WO-2025005,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,T7EDF0DMMCMCPCP3Z,WO-2025055,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,31WBMC97C7BP229YP,WO-2025008,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,9BLB8MC6NZLS9A2B1,WO-2025163,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,5PPYA8SNMBB3SNXZY,WO-2025192,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,VETJWW88D1G7T7RMZ,WO-2025130,Yes,None,Torque Failure
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,A984VWKZSMKLKY8YG,WO-2025014,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,RLPPT8TZPZLXCFAXS,WO-2025288,No,Reject,Material Defect
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,GB7J42J1VZ50CERWX,WO-2025099,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,U3TWZ65RJ3XJJ807C,WO-2025157,No,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,YC8U28U1TAYU8KG44,WO-2025030,No,None,
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,9A43Y44YVEDSJ5P0C,WO-2025088,Yes,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,DS5YZFC4KL8CFN1V6,WO-2025013,Yes,Repair,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,ZDNGRP56BZJP7C6RW,WO-2025226,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,T7EDF0DMMCMCPCP3Z,WO-2025055,No,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,K5E0T96KX1PN524KT,WO-2025066,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,101-JKL,Battery Cooling Harness,SD4T0TK49JVN7T65K,WO-2025003,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,RPLNDA0C1B4MTKZXK,WO-2025016,No,Repair,Torque Failure
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,LR1BM85R4EBS3WZAS,WO-2025072,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,KA2DLVBLLE4A3F77T,WO-2025078,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,9MM211LDA81ZR6E9K,WO-2025158,No,Repair,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,BPBY3Y13BN1J97DTS,WO-2025194,Yes,Repair,Assembly Error
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,PH9TDBDX3PCN9U95A,WO-2025000,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,K94THXG1YFJM4RZP4,WO-2025148,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,L53M30KN3RDN68BNH,WO-2025198,No,Repair,Assembly Error
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,0ZF3EX5JH5WEANT5U,WO-2025048,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,VL07XKKMZ6VG6GJ99,WO-2025186,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,T0VXSEER5NZ1LH8AT,WO-2025205,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,04KFZLEMRXF4NXW6Y,WO-2025123,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,P5LDX4R231Y4PBKKR,WO-2025164,Yes,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,FBNGZ6XMCX1EG0WTC,WO-2025023,No,Reject,Torque Failure
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,5FBT5XWU4F3E3GZCP,WO-2025056,No,None,Sensor Fault
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,6WFUWZEZK3MD7Y730,WO-2025037,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,LL0CCYXH3VGBN3Y33,WO-2025252,No,None,Torque Failure
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,4SFVS984JAVKE2324,WO-2025210,No,None,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,YRKXRG5K3Z77079WX,WO-2025022,No,Reject,Torque Failure
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,A984VWKZSMKLKY8YG,WO-2025014,No,None,
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,83CZ7PMK9H8DE71R3,WO-2025289,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5Z99BA26REY4ZL4FV,WO-2025181,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5Z99BA26REY4ZL4FV,WO-2025181,No,Repair,
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,GYV8VV12WZ0RD3VTY,WO-2025019,No,None,
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,84305FE1F56V2UL03,WO-2025162,Yes,Repair,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,RLPPT8TZPZLXCFAXS,WO-2025288,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,BPBY3Y13BN1J97DTS,WO-2025194,No,Reject,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,T2DYKNYW6Z6J0UTGY,WO-2025102,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,EZP4GZB2GVWJ3ZAXH,WO-2025290,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,VL07XKKMZ6VG6GJ99,WO-2025186,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,XKB08A16Z6MHGA80P,WO-2025173,Yes,None,Assembly Error
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,13L4J0XZJY7BTSBAJ,WO-2025090,No,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,7NAT8NNWN5S6LE8GD,WO-2025134,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,LR1BM85R4EBS3WZAS,WO-2025072,No,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,WHN848AW3G61993A9,WO-2025085,No,None,
+SUP-09,Nova Sensor Systems,South Korea,202-MNO,Brake Cylinder,FMRM5GGBP16FGSYJP,WO-2025036,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,J8J7KVEKAUK11RJD8,WO-2025243,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,M6SDM8SVGCHPLS997,WO-2025269,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,5Z99BA26REY4ZL4FV,WO-2025181,No,Repair,Assembly Error
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,W2XBA3FHRU4KMJ1LK,WO-2025265,No,None,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,VETJWW88D1G7T7RMZ,WO-2025130,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,BT4E30CERPXC2SZ9M,WO-2025062,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,202-MNO,Brake Cylinder,K94THXG1YFJM4RZP4,WO-2025148,Yes,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,G0X3GXVFRF427UT26,WO-2025248,No,Reject,Material Defect
+SUP-11,Vector Drive Components,USA,303-PQR,Door Lock Module,VMJK509TWKMCY50PG,WO-2025096,Yes,None,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,101-JKL,Battery Cooling Harness,M80UA67VFKNSDX7SB,WO-2025166,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,6FTL5XNA34TVBGWNK,WO-2025267,No,None,Material Defect
+SUP-09,Nova Sensor Systems,South Korea,303-PQR,Door Lock Module,TWJPRX6DUK7N8LA21,WO-2025011,No,Reject,Material Defect
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,SR1WBR6772L6T5V10,WO-2025146,No,None,Assembly Error
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,XPN6EAXD3HAWY66LE,WO-2025086,No,None,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,3VYTUL7FFFR2GX3KV,WO-2025249,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,NE7TSCHV5YPA9CAYJ,WO-2025211,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,789-GHI,Steering Rack,UYSTAAZE8T3XCZ6G2,WO-2025185,No,Reject,Torque Failure
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,JN6MZ7W0V88GLNHA3,WO-2025213,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,F4F86C2FT5ZE45VD3,WO-2025151,No,None,
+SUP-01,Atlas Fasteners,India,123-ABC,Front Axle Assembly,HLKL8WJ62VZJAWF71,WO-2025178,No,Reject,Torque Failure
+SUP-01,Atlas Fasteners,India,789-GHI,Steering Rack,5RDTYDPVACWXLTGZ8,WO-2025015,No,None,
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,JNUHLZNF2TUFEJGPV,WO-2025237,Yes,Repair,
+SUP-02,Precision Motion Works,Germany,123-ABC,Front Axle Assembly,74PE1PV6N9BT1U5U1,WO-2025284,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,AD1CGA65UCXBAKPCZ,WO-2025144,No,None,
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,795W3KSA7Y0WZ84P6,WO-2025266,No,None,Sensor Fault
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,D76U0N9CDE4CVR8HJ,WO-2025012,No,Repair,Sensor Fault
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,5FBT5XWU4F3E3GZCP,WO-2025056,No,None,Material Defect
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,BVY577KEPB6R4EKE5,WO-2025161,Yes,Reject,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,LL0CCYXH3VGBN3Y33,WO-2025252,No,None,
+SUP-11,Vector Drive Components,USA,123-ABC,Front Axle Assembly,PYLMZSU8CG90MY7AB,WO-2025189,No,Reject,Torque Failure
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,C2ZHY79RBSUF7C3SS,WO-2025080,No,None,Material Defect
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,NE7TSCHV5YPA9CAYJ,WO-2025211,No,None,
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,3CRZU9F2PL5X0D4NK,WO-2025122,No,None,Material Defect
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,JE8JN8WG3MD7V0G45,WO-2025294,Yes,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,123-ABC,Front Axle Assembly,CXDW97088CBDPKECS,WO-2025084,Yes,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,0M4HY5ZCTHZSNTM32,WO-2025040,No,Repair,
+SUP-01,Atlas Fasteners,India,456-DEF,Rear Suspension Module,AGN3BHBLEDJF19ND3,WO-2025203,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,456-DEF,Rear Suspension Module,6PSNFC4Z0TPXRHFBV,WO-2025191,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,202-MNO,Brake Cylinder,6FTL5XNA34TVBGWNK,WO-2025267,No,None,Assembly Error
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,VW76C3NMZB5BPM0SB,WO-2025076,No,None,Assembly Error
+SUP-01,Atlas Fasteners,India,303-PQR,Door Lock Module,8U5EPA48SMPAT8RR4,WO-2025202,No,Repair,Material Defect
+SUP-02,Precision Motion Works,Germany,789-GHI,Steering Rack,6FZX9ZKGDP3CKK4VA,WO-2025245,Yes,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,303-PQR,Door Lock Module,9RXS7F139FY2RAJEG,WO-2025271,No,None,
+SUP-01,Atlas Fasteners,India,202-MNO,Brake Cylinder,8EEFDZ51WCAJG101D,WO-2025255,No,None,Material Defect
+SUP-11,Vector Drive Components,USA,101-JKL,Battery Cooling Harness,RYL6SRHY3TBSB3UG1,WO-2025216,No,Repair,
+SUP-05,Prime Casting Solutions,Japan,303-PQR,Door Lock Module,9BLB8MC6NZLS9A2B1,WO-2025163,No,None,
+SUP-05,Prime Casting Solutions,Japan,101-JKL,Battery Cooling Harness,ZDNGRP56BZJP7C6RW,WO-2025226,No,None,Sensor Fault
+SUP-09,Nova Sensor Systems,South Korea,789-GHI,Steering Rack,CL7XYD6KKSKAB1Z2M,WO-2025261,Yes,None,
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,D76U0N9CDE4CVR8HJ,WO-2025012,No,None,Torque Failure
+SUP-02,Precision Motion Works,Germany,101-JKL,Battery Cooling Harness,TB7Y6UXU89CUGK8RD,WO-2025132,No,None,Sensor Fault
+SUP-02,Precision Motion Works,Germany,202-MNO,Brake Cylinder,L70VNSB8NFL4DGLE8,WO-2025225,No,None,Torque Failure
+SUP-05,Prime Casting Solutions,Japan,789-GHI,Steering Rack,8D3PDKXDGTDPUP6PS,WO-2025104,Yes,None,
+SUP-09,Nova Sensor Systems,South Korea,123-ABC,Front Axle Assembly,7DHMFPLNSC3YNCHKW,WO-2025033,No,None,Assembly Error
+SUP-02,Precision Motion Works,Germany,456-DEF,Rear Suspension Module,8YLWKXKNRPVMV5ZGP,WO-2025273,No,None,Torque Failure
