@@ -12,8 +12,14 @@ _REQUIRED_FIELDS = [
     "Part_No",
     "Torque_Nm",
     "Temp_C",
+    "Pressure",
     "VIN",
     "Supplier",
+    "Work_Order",
+    "Tool_ID",
+    "Inspection_Source",
+    "Energy_kWh",
+    "Plan_Production",
 ]
 
 
@@ -30,7 +36,7 @@ def validate_timestamp(ts):
     """Return True if a normalized timestamp is valid."""
     value = _string_value(ts)
     try:
-        datetime.strptime(value, "%Y-%m-%d %H:%M")
+        datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
         return True
     except ValueError:
         return False
@@ -61,6 +67,21 @@ def validate_row(row):
         float(row.get("Temp_C", ""))
     except (TypeError, ValueError):
         reasons.append("invalid_temperature")
+
+    try:
+        float(row.get("Pressure", ""))
+    except (TypeError, ValueError):
+        reasons.append("invalid_pressure")
+
+    try:
+        float(row.get("Energy_kWh", ""))
+    except (TypeError, ValueError):
+        reasons.append("invalid_energy")
+
+    try:
+        int(row.get("Plan_Production", ""))
+    except (TypeError, ValueError):
+        reasons.append("invalid_plan_production")
 
     return len(reasons) == 0, sorted(set(reasons))
 

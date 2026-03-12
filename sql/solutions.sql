@@ -1,137 +1,84 @@
 -- ============================================================
--- Developer 6 - Advanced SQL Queries & Solutions
+-- Car Manufacturing Case Study - SQL Analytics
+-- Assumes the cleaned dataset is loaded into a table named
+-- `manufacturing_events` with columns from output/cleaned_dataset.csv
 -- ============================================================
 
--- ----------------------------------------------------------
--- Q1: Customers who ordered ALL products
--- ----------------------------------------------------------
-SELECT c.customer_id, c.first_name, c.last_name
-FROM CUSTOMERS c
-WHERE NOT EXISTS (
-    SELECT p.product_id
-    FROM PRODUCTS p
-    WHERE NOT EXISTS (
-        SELECT 1
-        FROM ORDER_ITEMS oi
-        JOIN ORDERS o ON o.order_id = oi.order_id
-        WHERE o.customer_id = c.customer_id
-          AND oi.product_id = p.product_id
-    )
-);
-
--- ----------------------------------------------------------
--- Q2: Products never ordered
--- ----------------------------------------------------------
-SELECT p.product_id, p.product_name
-FROM PRODUCTS p
-LEFT JOIN ORDER_ITEMS oi ON p.product_id = oi.product_id
-WHERE oi.item_id IS NULL;
-
--- ----------------------------------------------------------
--- Q3: Orders containing both Mouse (id=2) and Keyboard (id=3)
--- ----------------------------------------------------------
-SELECT o.order_id, o.order_date, o.total_amount
-FROM ORDERS o
-WHERE o.order_id IN (
-    SELECT oi.order_id FROM ORDER_ITEMS oi WHERE oi.product_id = 2
+-- ------------------------------------------------------------
+-- 1. OEE per line
+-- ------------------------------------------------------------
+WITH line_stats AS (
+    SELECT
+        line,
+        AVG(CASE WHEN cycle_time_valid THEN cycle_time_seconds END) AS actual_cycle_time_seconds,
+        MAX(plan_production) AS planned_units,
+        COUNT(DISTINCT vin) AS total_units,
+        COUNT(DISTINCT CASE WHEN defect = 'None' AND rework = FALSE THEN vin END) AS good_units,
+        SUM(CASE WHEN cycle_time_valid THEN cycle_time_seconds ELSE 0 END) AS runtime_seconds
+    FROM manufacturing_events
+    GROUP BY line
 )
-AND o.order_id IN (
-    SELECT oi.order_id FROM ORDER_ITEMS oi WHERE oi.product_id = 3
-);
+SELECT
+    line,
+    ROUND(LEAST(runtime_seconds / NULLIF(planned_units * 300, 0), 1.0), 4) AS availability,
+    ROUND(LEAST(300 / NULLIF(actual_cycle_time_seconds, 0), 1.0), 4) AS performance,
+    ROUND(good_units / NULLIF(total_units, 0), 4) AS quality,
+    ROUND(
+        LEAST(runtime_seconds / NULLIF(planned_units * 300, 0), 1.0)
+        * LEAST(300 / NULLIF(actual_cycle_time_seconds, 0), 1.0)
+        * (good_units / NULLIF(total_units, 0)),
+        4
+    ) AS oee
+FROM line_stats
+ORDER BY line;
 
--- ----------------------------------------------------------
--- Q4: Customers with unpaid (Pending) orders
--- ----------------------------------------------------------
-SELECT DISTINCT c.customer_id, c.first_name, c.last_name, o.order_id, o.total_amount
-FROM CUSTOMERS c
-JOIN ORDERS o    ON c.customer_id = o.customer_id
-JOIN PAYMENTS py ON o.order_id    = py.order_id
-WHERE py.status = 'Pending';
+-- ------------------------------------------------------------
+-- 2. Defects per station
+-- ------------------------------------------------------------
+SELECT
+    station,
+    COUNT(*) AS defect_count
+FROM manufacturing_events
+WHERE defect IN ('Reject', 'Repair')
+GROUP BY station
+ORDER BY defect_count DESC, station;
 
--- ----------------------------------------------------------
--- Q5: Top 5 spending customers
--- ----------------------------------------------------------
-SELECT c.customer_id, c.first_name, c.last_name,
-       SUM(o.total_amount) AS total_spent
-FROM CUSTOMERS c
-JOIN ORDERS o ON c.customer_id = o.customer_id
-GROUP BY c.customer_id, c.first_name, c.last_name
-ORDER BY total_spent DESC
+-- ------------------------------------------------------------
+-- 3. Top 5 suppliers by defect rate
+-- ------------------------------------------------------------
+SELECT
+    supplier,
+    supplier_name,
+    ROUND(
+        SUM(CASE WHEN defect IN ('Reject', 'Repair') THEN 1 ELSE 0 END) * 1.0
+        / NULLIF(COUNT(*), 0),
+        4
+    ) AS defect_rate,
+    COUNT(*) AS total_events
+FROM manufacturing_events
+GROUP BY supplier, supplier_name
+ORDER BY defect_rate DESC, total_events DESC
 LIMIT 5;
 
--- ----------------------------------------------------------
--- Q6: Running payment totals per customer (window function)
--- ----------------------------------------------------------
-SELECT c.customer_id, c.first_name,
-       py.payment_date,
-       py.amount,
-       SUM(py.amount) OVER (
-           PARTITION BY c.customer_id
-           ORDER BY py.payment_date
-           ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
-       ) AS running_total
-FROM CUSTOMERS c
-JOIN ORDERS o    ON c.customer_id = o.customer_id
-JOIN PAYMENTS py ON o.order_id    = py.order_id
-WHERE py.status = 'Completed'
-ORDER BY c.customer_id, py.payment_date;
+-- ------------------------------------------------------------
+-- 4. Bottleneck station
+-- ------------------------------------------------------------
+SELECT
+    station,
+    ROUND(AVG(cycle_time_seconds), 2) AS avg_cycle_time_seconds
+FROM manufacturing_events
+WHERE cycle_time_seconds IS NOT NULL
+GROUP BY station
+ORDER BY avg_cycle_time_seconds DESC
+LIMIT 1;
 
--- ----------------------------------------------------------
--- Q7: Customer ranking by total spending (RANK / DENSE_RANK)
--- ----------------------------------------------------------
-SELECT customer_id, first_name, last_name, total_spent,
-       RANK()       OVER (ORDER BY total_spent DESC) AS rank_pos,
-       DENSE_RANK() OVER (ORDER BY total_spent DESC) AS dense_rank_pos
-FROM (
-    SELECT c.customer_id, c.first_name, c.last_name,
-           SUM(o.total_amount) AS total_spent
-    FROM CUSTOMERS c
-    JOIN ORDERS o ON c.customer_id = o.customer_id
-    GROUP BY c.customer_id, c.first_name, c.last_name
-) AS spending;
-
--- ----------------------------------------------------------
--- Q8: Window function – order sequence per customer
--- ----------------------------------------------------------
-SELECT c.customer_id, c.first_name,
-       o.order_id, o.order_date, o.total_amount,
-       ROW_NUMBER() OVER (PARTITION BY c.customer_id ORDER BY o.order_date)     AS order_seq,
-       LAG(o.total_amount) OVER (PARTITION BY c.customer_id ORDER BY o.order_date)  AS prev_order_amt,
-       LEAD(o.total_amount) OVER (PARTITION BY c.customer_id ORDER BY o.order_date) AS next_order_amt
-FROM CUSTOMERS c
-JOIN ORDERS o ON c.customer_id = o.customer_id
-ORDER BY c.customer_id, o.order_date;
-
--- ----------------------------------------------------------
--- Q9: CTE – Monthly revenue summary
--- ----------------------------------------------------------
-WITH monthly_revenue AS (
-    SELECT DATE_FORMAT(o.order_date, '%Y-%m') AS order_month,
-           SUM(o.total_amount) AS revenue
-    FROM ORDERS o
-    GROUP BY order_month
-)
-SELECT order_month, revenue,
-       SUM(revenue) OVER (ORDER BY order_month) AS cumulative_revenue
-FROM monthly_revenue
-ORDER BY order_month;
-
--- ----------------------------------------------------------
--- Q10: CTE – Customers with above-average spending
--- ----------------------------------------------------------
-WITH customer_spending AS (
-    SELECT c.customer_id, c.first_name, c.last_name,
-           SUM(o.total_amount) AS total_spent
-    FROM CUSTOMERS c
-    JOIN ORDERS o ON c.customer_id = o.customer_id
-    GROUP BY c.customer_id, c.first_name, c.last_name
-),
-avg_spending AS (
-    SELECT AVG(total_spent) AS avg_spent FROM customer_spending
-)
-SELECT cs.customer_id, cs.first_name, cs.last_name,
-       cs.total_spent, a.avg_spent
-FROM customer_spending cs
-CROSS JOIN avg_spending a
-WHERE cs.total_spent > a.avg_spent
-ORDER BY cs.total_spent DESC;
+-- ------------------------------------------------------------
+-- 5. Average cycle time per station
+-- ------------------------------------------------------------
+SELECT
+    station,
+    ROUND(AVG(cycle_time_seconds), 2) AS avg_cycle_time_seconds
+FROM manufacturing_events
+WHERE cycle_time_seconds IS NOT NULL
+GROUP BY station
+ORDER BY station;
